@@ -1956,12 +1956,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -1979,13 +1982,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 98.4,
 				name = "Raid Wide WAR/PLD (-7s)",
 				timeRange = true,
 				timelineIndex = 14,
 				timerEndOffset = -1,
-				timerOffset = -10,
+				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "e12300cb-22c5-cc77-9bce-474eb7f7a237",
 				version = 2,
@@ -2403,12 +2405,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				mechanicTime = 98.4,
@@ -4486,12 +4491,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -4509,13 +4517,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 206.4,
 				name = "Raid Wide WAR/PLD (-7s)",
 				timeRange = true,
 				timelineIndex = 36,
 				timerEndOffset = -1,
-				timerOffset = -10,
+				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "4ea2f505-56c1-8db3-8a9e-61b6477e7a51",
 				version = 2,
@@ -4942,9 +4949,11 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
@@ -6284,9 +6293,11 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
@@ -6419,12 +6430,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -6442,13 +6456,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 249.2,
 				name = "Raid Wide WAR/PLD (-7s)",
 				timeRange = true,
 				timelineIndex = 42,
 				timerEndOffset = -1,
-				timerOffset = -10,
+				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "2e92a19a-01fa-f588-9096-b74e7efd4968",
 				version = 2,
@@ -8600,7 +8613,7 @@ local tbl =
 				},
 				eventType = 2,
 				mechanicTime = 280.4,
-				name = "Shirk if MT Backup (-5 - 5s)",
+				name = "Shirk if MT Backup (0s)",
 				timelineIndex = 47,
 				timerEndOffset = 5,
 				timerStartOffset = -5,
@@ -10895,9 +10908,11 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
@@ -10914,6 +10929,117 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 14,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_Equilibrium",
+							uuid = "6d01cf99-6b93-9dfd-9da7-b24a54cf0310",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_Aurora",
+							uuid = "94180228-8035-dc16-a494-7d9219c65157",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+								
+								{
+									"584a6fe2-77af-5997-950a-64cc6ac336de",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_ThrillOfBattle",
+							uuid = "c5c903d4-8234-7820-b78e-4b5ca0919ab6",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							dequeueIfLuaFalse = true,
+							hpValue = 25,
+							uuid = "bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 3552,
+							category = "Self",
+							conditionType = 4,
+							name = "Equi Not Ready",
+							uuid = "584a6fe2-77af-5997-950a-64cc6ac336de",
+							version = 2,
+						},
+					},
+				},
+				loop = true,
+				mechanicTime = 383.9,
+				name = "Tank Heal Backup (.5s)",
+				timeRange = true,
+				timelineIndex = 73,
+				timerEndOffset = 10,
+				timerStartOffset = 0.5,
+				uuid = "97230e67-3f5f-2e07-a782-54e5e4c828df",
+				version = 2,
+			},
 		},
 		
 		{
@@ -11030,12 +11156,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -11053,129 +11182,17 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 383.9,
 				name = "Raid Wide WAR/PLD (-7s)",
 				timeRange = true,
 				timelineIndex = 73,
 				timerEndOffset = -1,
-				timerOffset = -10,
+				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "0eff1f19-6e7c-1095-8deb-bda013b1ecad",
 				version = 2,
 			},
 			inheritedIndex = 16,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_Tankbar_Equilibrium",
-							uuid = "6d01cf99-6b93-9dfd-9da7-b24a54cf0310",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Tankbar_Aurora",
-							uuid = "94180228-8035-dc16-a494-7d9219c65157",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
-									true,
-								},
-								
-								{
-									"584a6fe2-77af-5997-950a-64cc6ac336de",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_Tankbar_ThrillOfBattle",
-							uuid = "c5c903d4-8234-7820-b78e-4b5ca0919ab6",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-						inheritedIndex = 3,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							comparator = 2,
-							conditionType = 2,
-							dequeueIfLuaFalse = true,
-							hpValue = 25,
-							uuid = "bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 2,
-							actionID = 3552,
-							category = "Self",
-							conditionType = 4,
-							name = "Equi Not Ready",
-							uuid = "584a6fe2-77af-5997-950a-64cc6ac336de",
-							version = 2,
-						},
-					},
-				},
-				loop = true,
-				mechanicTime = 383.9,
-				name = "Tank Heal Backup (.5s)",
-				timeRange = true,
-				timelineIndex = 73,
-				timerEndOffset = 10,
-				timerStartOffset = 0.5,
-				uuid = "97230e67-3f5f-2e07-a782-54e5e4c828df",
-				version = 2,
-			},
 		},
 	},
 	[77] = 
@@ -13878,12 +13895,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -13901,13 +13921,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 500.9,
 				name = "Raid Wide WAR/PLD (-7s)",
 				timeRange = true,
 				timelineIndex = 89,
 				timerEndOffset = -1,
-				timerOffset = -10,
+				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "25541b4e-363a-6118-8402-556126de68d0",
 				version = 2,
@@ -14152,12 +14171,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				mechanicTime = 500.9,
@@ -18180,9 +18202,11 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
@@ -18315,12 +18339,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -18338,13 +18365,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 678.6,
 				name = "Raid Wide WAR/PLD (-7s)",
 				timeRange = true,
 				timelineIndex = 106,
 				timerEndOffset = -1,
-				timerOffset = -10,
+				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "7dd89f5f-8ce3-5281-923c-64de8bc36393",
 				version = 2,
@@ -20119,12 +20145,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -20142,13 +20171,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 751.8,
 				name = "Raid Wide WAR/PLD (-7s)",
 				timeRange = true,
 				timelineIndex = 115,
 				timerEndOffset = -1,
-				timerOffset = -10,
+				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "b81fe8d3-ab30-9f44-8b01-bf51aea2295d",
 				version = 2,
@@ -21496,12 +21524,15 @@ local tbl =
 								726,
 								1457,
 								1839,
+								1362,
 							},
-							category = "Self",
+							category = "Party",
 							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
 							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				mechanicTime = 785.6,
