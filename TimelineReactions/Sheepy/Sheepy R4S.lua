@@ -81,6 +81,56 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"f275713e-d605-e802-9fd9-465191442a10",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "02d109f0-afc3-5356-9446-f82cbab0b7ae",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 7,
+							uuid = "f275713e-d605-e802-9fd9-465191442a10",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 10.6,
+				name = "Provoke",
+				timeRange = true,
+				timelineIndex = 1,
+				timerEndOffset = -8,
+				timerOffset = -1,
+				timerStartOffset = -15,
+				uuid = "5908e34e-47e2-7193-a7b9-c18f275c233c",
+				version = 2,
+			},
+		},
 	}, 
 	[4] = 
 	{
@@ -307,6 +357,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 4,
 				timerEndOffset = 2,
+				timerStartOffset = 0.20000000298023,
 				uuid = "6d047aa2-2e64-850f-813d-094a361706b2",
 				version = 2,
 			},
@@ -726,12 +777,12 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 49.6,
-				name = "Instant Dash (0.1s)",
+				name = "Instant Dash (0.2s)",
 				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 7,
 				timerEndOffset = 2,
-				timerStartOffset = 0.10000000149012,
+				timerStartOffset = 0.20000000298023,
 				uuid = "51364cbb-f489-0e2a-ae35-b2b7106f2874",
 				version = 2,
 			},
@@ -958,12 +1009,12 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 57.6,
-				name = "Instant Dash (0.1s)",
+				name = "Instant Dash (0.2s)",
 				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 8,
 				timerEndOffset = 2,
-				timerStartOffset = 0.10000000149012,
+				timerStartOffset = 0.20000000298023,
 				uuid = "a79bb9c2-4de7-afe4-9dfc-9f402fe1ec72",
 				version = 2,
 			},
@@ -1225,7 +1276,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 11,
 				timerEndOffset = 3,
-				timerStartOffset = 0.5,
+				timerStartOffset = 1,
 				uuid = "09549595-b0d0-4acd-9275-54706499ab6e",
 				version = 2,
 			},
@@ -1485,11 +1536,63 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 12,
 				timerEndOffset = 3,
-				timerStartOffset = 0.5,
+				timerStartOffset = 1,
 				uuid = "c216015b-dcae-f23f-af06-2cc92d313132",
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_HoldOneJump",
+							gVarValue = 2,
+							uuid = "f09603a6-309d-6791-a243-912282a42dea",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_HoldOneJump",
+							gVarValue = 2,
+							uuid = "6d0afaf8-35c5-2231-8b87-a59df60a5fca",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_HoldOneJump",
+							gVarValue = 2,
+							uuid = "ed271a1d-0561-efdc-8ab9-6968d3b5dd46",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 84.9,
+				name = "Hold 1 Jump Tanks Disable",
+				timelineIndex = 12,
+				uuid = "3ed9e6da-0625-15d0-9df1-4e808041a42c",
+				version = 2,
+			},
+			inheritedIndex = 1,
 		},
 	},
 	[14] = 
@@ -2408,6 +2511,39 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							endIfUsed = true,
+							gVar = "ACR_TensorReaper3_Hotbar_ArcaneCrest",
+							uuid = "de734468-3e00-6067-87dd-ad55be77b1ba",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				loop = true,
+				mechanicTime = 134.4,
+				name = "RPR Crest (-3s)",
+				timelineIndex = 21,
+				timerEndOffset = -1,
+				timerOffset = -3,
+				timerStartOffset = -3,
+				uuid = "fe6d7a17-855d-02b0-b9b9-0df7062adb09",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							actionID = 7535,
 							actionLua = "SallyPLD.HotBarConfig.Reprisal.enabled = false\nSallyWAR.HotBarConfig.Reprisal.enabled = false\nSallyDRK.HotBarConfig.Reprisal.enabled = false\nSallyGNB.HotBarConfig.Reprisal.enabled = false\nself.used = true",
 							allowInterrupt = true,
@@ -2578,39 +2714,6 @@ local tbl =
 			},
 			inheritedIndex = 4,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							endIfUsed = true,
-							gVar = "ACR_TensorReaper3_Hotbar_ArcaneCrest",
-							uuid = "de734468-3e00-6067-87dd-ad55be77b1ba",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				loop = true,
-				mechanicTime = 134.4,
-				name = "RPR Crest (-3s)",
-				timelineIndex = 21,
-				timerEndOffset = -1,
-				timerOffset = -3,
-				timerStartOffset = -3,
-				uuid = "fe6d7a17-855d-02b0-b9b9-0df7062adb09",
-				version = 2,
-			},
-		},
 	},
 	[23] = 
 	{
@@ -2713,8 +2816,9 @@ local tbl =
 					},
 				},
 				mechanicTime = 142.6,
-				name = "Invuln if MT (0s)",
+				name = "Invuln if MT (0.5s)",
 				timelineIndex = 23,
+				timerOffset = 0.5,
 				uuid = "a43609b0-b1a9-2b87-b9da-00c998474f7c",
 				version = 2,
 			},
@@ -3851,11 +3955,12 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 179.9,
-				name = "Instant Dash (0s)",
+				name = "Instant Dash (0.2s)",
 				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 32,
 				timerEndOffset = 2,
+				timerStartOffset = 0.20000000298023,
 				uuid = "6ebcd238-a636-7cdf-be46-8934354d54fb",
 				version = 2,
 			},
@@ -4482,11 +4587,12 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 199.8,
-				name = "Instant Dash (0s)",
+				name = "Instant Dash (0.2s)",
 				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 35,
 				timerEndOffset = 2,
+				timerStartOffset = 0.20000000298023,
 				uuid = "55e3ba6f-fd08-1386-915e-76dca2cf2a35",
 				version = 2,
 			},
@@ -5812,7 +5918,7 @@ local tbl =
 				randomOffset = 5,
 				timeRange = true,
 				timelineIndex = 37,
-				timerEndOffset = 40,
+				timerEndOffset = 60,
 				timerOffset = -5,
 				timerStartOffset = -20,
 				uuid = "7cfff2ed-da74-7951-972d-5463a02701d2",
@@ -6065,11 +6171,11 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 221.6,
-				name = "Instant Dash (0s)",
-				throttleTime = 200,
+				name = "Instant Dash (0.2s)",
 				timeRange = true,
 				timelineIndex = 37,
 				timerEndOffset = 2,
+				timerStartOffset = 0.20000000298023,
 				uuid = "52b4ade4-6ff7-53c9-ac28-45effb326f58",
 				version = 2,
 			},
@@ -8807,8 +8913,9 @@ local tbl =
 					},
 				},
 				mechanicTime = 288.7,
-				name = "Invuln if OT (0s)",
+				name = "Invuln if OT (0.5s)",
 				timelineIndex = 48,
+				timerOffset = 0.5,
 				uuid = "4bcbe1e0-28d6-6545-bd08-10920213e3a2",
 				version = 2,
 			},
@@ -10220,11 +10327,12 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 335.9,
-				name = "Instant Dash (0s)",
+				name = "Instant Dash (0.2s)",
 				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 59,
 				timerEndOffset = 2,
+				timerStartOffset = 0.20000000298023,
 				uuid = "3398462f-a030-0f88-804a-af9a5072cf9c",
 				version = 2,
 			},
@@ -10780,11 +10888,11 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 361.9,
-				name = "Instant Dash (0s)",
-				throttleTime = 200,
+				name = "Instant Dash (0.2s)",
 				timeRange = true,
 				timelineIndex = 68,
 				timerEndOffset = 2,
+				timerStartOffset = 0.20000000298023,
 				uuid = "500b838f-09bd-86f8-8e43-80f03e48c417",
 				version = 2,
 			},
