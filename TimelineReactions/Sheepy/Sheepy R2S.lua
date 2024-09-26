@@ -825,8 +825,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -847,7 +847,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 34,
 				name = "Instant Dash (0s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 6,
 				timerEndOffset = 2,
@@ -1385,8 +1384,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -1407,7 +1406,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 53,
 				name = "Instant Dash (0s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 10,
 				timerEndOffset = 2,
@@ -3091,6 +3089,119 @@ local tbl =
 			inheritedIndex = 16,
 		},
 	},
+	[16] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_Equilibrium",
+							uuid = "6d01cf99-6b93-9dfd-9da7-b24a54cf0310",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_Aurora",
+							uuid = "94180228-8035-dc16-a494-7d9219c65157",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+								
+								{
+									"584a6fe2-77af-5997-950a-64cc6ac336de",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_ThrillOfBattle",
+							uuid = "c5c903d4-8234-7820-b78e-4b5ca0919ab6",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							dequeueIfLuaFalse = true,
+							hpValue = 25,
+							uuid = "bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 3552,
+							category = "Self",
+							conditionType = 4,
+							name = "Equi Not Ready",
+							uuid = "584a6fe2-77af-5997-950a-64cc6ac336de",
+							version = 2,
+						},
+					},
+				},
+				loop = true,
+				mechanicTime = 87.4,
+				name = "Tank Heal Backup Long Duration (100s)",
+				timeRange = true,
+				timelineIndex = 16,
+				timerEndOffset = 100,
+				uuid = "ec981501-b23d-ff60-852f-a08c9c1f897c",
+				version = 2,
+			},
+		},
+	},
 	[20] = 
 	{
 		
@@ -3388,8 +3499,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -3410,7 +3521,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 137.3,
 				name = "Instant Dash (0s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 28,
 				timerEndOffset = 2,
@@ -5163,6 +5273,116 @@ local tbl =
 			},
 			inheritedIndex = 3,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_Equilibrium",
+							uuid = "6d01cf99-6b93-9dfd-9da7-b24a54cf0310",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_Aurora",
+							uuid = "94180228-8035-dc16-a494-7d9219c65157",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+								
+								{
+									"584a6fe2-77af-5997-950a-64cc6ac336de",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_ThrillOfBattle",
+							uuid = "c5c903d4-8234-7820-b78e-4b5ca0919ab6",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							dequeueIfLuaFalse = true,
+							hpValue = 25,
+							uuid = "bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 3552,
+							category = "Self",
+							conditionType = 4,
+							name = "Equi Not Ready",
+							uuid = "584a6fe2-77af-5997-950a-64cc6ac336de",
+							version = 2,
+						},
+					},
+				},
+				loop = true,
+				mechanicTime = 209.6,
+				name = "Tank Heal Backup Long Duration (30s)",
+				timeRange = true,
+				timelineIndex = 38,
+				timerEndOffset = 30,
+				uuid = "e22926ec-121b-7f15-bb22-b5c4fa2e0c7b",
+				version = 2,
+			},
+		},
 	},
 	[40] = 
 	{
@@ -5363,8 +5583,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -5385,7 +5605,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 243.3,
 				name = "Instant Dash (0s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 40,
 				timerEndOffset = 2,
@@ -6294,6 +6513,119 @@ local tbl =
 			inheritedIndex = 16,
 		},
 	},
+	[43] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_Equilibrium",
+							uuid = "6d01cf99-6b93-9dfd-9da7-b24a54cf0310",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_Aurora",
+							uuid = "94180228-8035-dc16-a494-7d9219c65157",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+									true,
+								},
+								
+								{
+									"584a6fe2-77af-5997-950a-64cc6ac336de",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_ThrillOfBattle",
+							uuid = "c5c903d4-8234-7820-b78e-4b5ca0919ab6",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							comparator = 2,
+							conditionType = 2,
+							dequeueIfLuaFalse = true,
+							hpValue = 25,
+							uuid = "bd11cb20-6a82-5e81-b0d0-c4b2e47a3ee5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 3552,
+							category = "Self",
+							conditionType = 4,
+							name = "Equi Not Ready",
+							uuid = "584a6fe2-77af-5997-950a-64cc6ac336de",
+							version = 2,
+						},
+					},
+				},
+				loop = true,
+				mechanicTime = 261.8,
+				name = "Tank Heal Backup Long Duration (45s)",
+				timeRange = true,
+				timelineIndex = 43,
+				timerEndOffset = 45,
+				uuid = "f61a6201-d409-98f3-a12e-9445752d016b",
+				version = 2,
+			},
+		},
+	},
 	[45] = 
 	{
 		
@@ -6855,8 +7187,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -6877,7 +7209,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 301.2,
 				name = "Instant Dash (0s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 56,
 				timerEndOffset = 2,
@@ -7896,28 +8227,39 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fbb3261b-e996-8710-b105-cd500c8e3a0f",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
 							name = "Oblation Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -7934,22 +8276,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -7965,22 +8298,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -7999,28 +8323,14 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
 							name = "TBN Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -8035,28 +8345,7 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								2680,
-								1178,
-								2682,
-								2683,
-								1178,
-							},
-							category = "Party",
-							dequeueIfLuaFalse = true,
-							name = "Healer Missing Buffs",
-							partyTargetType = "Healer",
-							uuid = "dace436f-fbda-65a2-9047-00ca6c44502a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 61,
+							actionCDValue = 1,
 							actionID = 25754,
 							category = "Self",
 							conditionType = 4,
@@ -8069,39 +8358,24 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 3,
-							buffDuration = 5,
-							buffID = 3934,
 							category = "Event",
-							comparator = 2,
 							eventArgType = 2,
+							eventEntityID = 538,
 							eventMarkerID = 234,
-							uuid = "f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							conditionType = 10,
-							inGroupTargetType = "Healer",
-							partyTargetType = "Event Entity",
-							uuid = "8ba238fb-51ee-947a-b0fd-258b68093552",
+							name = "Marker",
+							uuid = "502d1e0a-585d-2f89-87e9-79e85dc497ec",
 							version = 2,
 						},
 					},
 				},
 				eventType = 4,
-				loop = true,
 				mechanicTime = 341.7,
 				name = "MARKER Short Mitigation Nearest Healer (not WAR)(-4s)",
+				throttleTime = 3000,
 				timeRange = true,
 				timelineIndex = 64,
-				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -4,
+				timerStartOffset = -10,
 				uuid = "dfc3ff70-4873-2aa3-a7b3-bd694ff6cc26",
 				version = 2,
 			},
@@ -8113,6 +8387,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"a54cfde0-0971-bec3-b305-021388d3ba9a",
+									true,
+								},
+								
+								{
+									"cac03723-4433-183e-8736-c48361c90af1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fee4e966-bdef-3c49-89a7-9526b694fd80",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -8172,10 +8471,11 @@ local tbl =
 				eventType = 4,
 				mechanicTime = 341.7,
 				name = "MARKER SAM Mitigation (-2s)",
+				throttleTime = 5000,
 				timeRange = true,
 				timelineIndex = 64,
 				timerEndOffset = -0.5,
-				timerStartOffset = -2,
+				timerStartOffset = -10,
 				uuid = "a9bfa352-a454-d0c8-942e-c419105ba3f1",
 				version = 2,
 			},
@@ -8186,6 +8486,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"da85dc12-5798-c358-8d40-9e9a8cc0cf66",
+									true,
+								},
+								
+								{
+									"2606ab1f-d1c9-31b8-9242-57125acfd509",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "8a5e4847-dcf6-e91c-b9db-ace7cedded68",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -8245,202 +8570,15 @@ local tbl =
 				loop = true,
 				mechanicTime = 341.7,
 				name = "MARKER RPR Crest (-3s)",
+				throttleTime = 4000,
+				timeRange = true,
 				timelineIndex = 64,
 				timerEndOffset = -1,
 				timerOffset = -3,
-				timerStartOffset = -3,
+				timerStartOffset = -10,
 				uuid = "e824419f-09ee-ee7f-a966-f081ff3d0b33",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD3_Hotbar_Intervene",
-							uuid = "5c24d8a3-a21a-e2a3-aa5b-b23fd95c3772",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_Hotbar_Onslaught",
-							uuid = "9a32f0b8-3689-f247-89b1-fa33b40eaa67",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK3_Hotbar_Shadowstride",
-							uuid = "9944d060-8e2d-d3b9-a7b4-f6d6491cc410",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Hotbar_Trajectory",
-							uuid = "06d55329-8698-b8d5-922e-a09da4d2b29c",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_Hotbar_WingedGlide",
-							uuid = "d4b2a31f-527d-2c0a-9350-27431779fe5e",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuMNK3_Hotbar_Thunderclap",
-							uuid = "45b72990-bd1e-7012-9132-4f8b5233f472",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_TensorWeeb3_Hotbar_Gyoten",
-							uuid = "b0a88739-e469-9ff2-9fd8-7a1dc62d3cf3",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-						inheritedIndex = 7,
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
-							uuid = "fd71c552-cd75-f79f-aa18-cdcf706b6a69",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							conditionType = 6,
-							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							uuid = "a0dfa8e4-5e25-0515-819f-00a9a1e502c3",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				loop = true,
-				mechanicTime = 341.7,
-				name = "Instant Dash (1s)",
-				throttleTime = 500,
-				timeRange = true,
-				timelineIndex = 64,
-				timerEndOffset = 3,
-				timerOffset = 0.050000000745058,
-				timerStartOffset = 1,
-				uuid = "d20bb9d5-eec7-59ee-b1aa-0c6eb2dd24cc",
-				version = 2,
-			},
-			inheritedIndex = 7,
 		},
 		
 		{
@@ -8639,8 +8777,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -8661,7 +8799,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 341.7,
 				name = "Instant Dash (1s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 64,
 				timerEndOffset = 3,
@@ -8680,6 +8817,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"a54cfde0-0971-bec3-b305-021388d3ba9a",
+									true,
+								},
+								
+								{
+									"cac03723-4433-183e-8736-c48361c90af1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fee4e966-bdef-3c49-89a7-9526b694fd80",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -8739,10 +8901,10 @@ local tbl =
 				eventType = 4,
 				mechanicTime = 346.7,
 				name = "MARKER SAM Mitigation (-2s)",
+				throttleTime = 5000,
 				timeRange = true,
 				timelineIndex = 66,
-				timerEndOffset = -0.5,
-				timerStartOffset = -2,
+				timerStartOffset = -10,
 				uuid = "05634057-d649-ac84-a055-179198b1842a",
 				version = 2,
 			},
@@ -8757,28 +8919,39 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fbb3261b-e996-8710-b105-cd500c8e3a0f",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
 							name = "Oblation Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -8795,22 +8968,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -8826,22 +8990,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -8860,28 +9015,14 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
 							name = "TBN Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -8896,28 +9037,7 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								2680,
-								1178,
-								2682,
-								2683,
-								1178,
-							},
-							category = "Party",
-							dequeueIfLuaFalse = true,
-							name = "Healer Missing Buffs",
-							partyTargetType = "Healer",
-							uuid = "dace436f-fbda-65a2-9047-00ca6c44502a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 61,
+							actionCDValue = 1,
 							actionID = 25754,
 							category = "Self",
 							conditionType = 4,
@@ -8930,40 +9050,25 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 3,
-							buffDuration = 5,
-							buffID = 3934,
 							category = "Event",
-							comparator = 2,
 							eventArgType = 2,
+							eventEntityID = 538,
 							eventMarkerID = 234,
-							uuid = "f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							conditionType = 10,
-							inGroupTargetType = "Healer",
-							partyTargetType = "Event Entity",
-							uuid = "8ba238fb-51ee-947a-b0fd-258b68093552",
+							name = "Marker",
+							uuid = "502d1e0a-585d-2f89-87e9-79e85dc497ec",
 							version = 2,
 						},
 					},
 				},
 				eventType = 4,
-				loop = true,
 				mechanicTime = 346.7,
 				name = "MARKER Short Mitigation Nearest Healer (not WAR)(-4s)",
+				throttleTime = 3000,
 				timeRange = true,
 				timelineIndex = 66,
-				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -4,
-				uuid = "e42f4492-ccfc-48bd-956e-7a58e64d5220",
+				timerStartOffset = -10,
+				uuid = "69619ddf-15ef-e914-9176-bad6873863eb",
 				version = 2,
 			},
 			inheritedIndex = 2,
@@ -8974,6 +9079,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"da85dc12-5798-c358-8d40-9e9a8cc0cf66",
+									true,
+								},
+								
+								{
+									"2606ab1f-d1c9-31b8-9242-57125acfd509",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "8a5e4847-dcf6-e91c-b9db-ace7cedded68",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -9033,10 +9163,11 @@ local tbl =
 				loop = true,
 				mechanicTime = 346.7,
 				name = "MARKER RPR Crest (-3s)",
+				throttleTime = 4000,
+				timeRange = true,
 				timelineIndex = 66,
-				timerEndOffset = -1,
 				timerOffset = -3,
-				timerStartOffset = -3,
+				timerStartOffset = -10,
 				uuid = "5b5a93b9-7ecb-263d-a73b-d876f623803e",
 				version = 2,
 			},
@@ -9238,8 +9369,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -9260,7 +9391,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 346.7,
 				name = "Instant Dash (1s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 66,
 				timerEndOffset = 3,
@@ -9279,6 +9409,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"a54cfde0-0971-bec3-b305-021388d3ba9a",
+									true,
+								},
+								
+								{
+									"cac03723-4433-183e-8736-c48361c90af1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fee4e966-bdef-3c49-89a7-9526b694fd80",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -9338,10 +9493,11 @@ local tbl =
 				eventType = 4,
 				mechanicTime = 351.7,
 				name = "MARKER SAM Mitigation (-2s)",
+				throttleTime = 5000,
 				timeRange = true,
 				timelineIndex = 67,
 				timerEndOffset = -0.5,
-				timerStartOffset = -2,
+				timerStartOffset = -10,
 				uuid = "7c594e02-d799-09f8-904f-ddb260ffdf55",
 				version = 2,
 			},
@@ -9356,28 +9512,39 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fbb3261b-e996-8710-b105-cd500c8e3a0f",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
 							name = "Oblation Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -9394,22 +9561,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -9425,22 +9583,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -9459,28 +9608,14 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
 							name = "TBN Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -9495,28 +9630,7 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								2680,
-								1178,
-								2682,
-								2683,
-								1178,
-							},
-							category = "Party",
-							dequeueIfLuaFalse = true,
-							name = "Healer Missing Buffs",
-							partyTargetType = "Healer",
-							uuid = "dace436f-fbda-65a2-9047-00ca6c44502a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 61,
+							actionCDValue = 1,
 							actionID = 25754,
 							category = "Self",
 							conditionType = 4,
@@ -9529,40 +9643,25 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 3,
-							buffDuration = 5,
-							buffID = 3934,
 							category = "Event",
-							comparator = 2,
 							eventArgType = 2,
+							eventEntityID = 538,
 							eventMarkerID = 234,
-							uuid = "f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							conditionType = 10,
-							inGroupTargetType = "Healer",
-							partyTargetType = "Event Entity",
-							uuid = "8ba238fb-51ee-947a-b0fd-258b68093552",
+							name = "Marker",
+							uuid = "502d1e0a-585d-2f89-87e9-79e85dc497ec",
 							version = 2,
 						},
 					},
 				},
 				eventType = 4,
-				loop = true,
 				mechanicTime = 351.7,
 				name = "MARKER Short Mitigation Nearest Healer (not WAR)(-4s)",
+				throttleTime = 3000,
 				timeRange = true,
 				timelineIndex = 67,
-				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -4,
-				uuid = "fb3ee759-6d02-9cda-8184-5908d6da2103",
+				timerStartOffset = -10,
+				uuid = "1c932950-1c70-8682-8379-8549da8c7fd4",
 				version = 2,
 			},
 			inheritedIndex = 2,
@@ -9573,6 +9672,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"da85dc12-5798-c358-8d40-9e9a8cc0cf66",
+									true,
+								},
+								
+								{
+									"2606ab1f-d1c9-31b8-9242-57125acfd509",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "8a5e4847-dcf6-e91c-b9db-ace7cedded68",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -9632,10 +9756,12 @@ local tbl =
 				loop = true,
 				mechanicTime = 351.7,
 				name = "MARKER RPR Crest (-3s)",
+				throttleTime = 4000,
+				timeRange = true,
 				timelineIndex = 67,
 				timerEndOffset = -1,
 				timerOffset = -3,
-				timerStartOffset = -3,
+				timerStartOffset = -10,
 				uuid = "b86dfc26-2d75-900b-a7c8-884552319133",
 				version = 2,
 			},
@@ -9837,8 +9963,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -9859,7 +9985,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 351.7,
 				name = "Instant Dash (1s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 67,
 				timerEndOffset = 3,
@@ -9878,6 +10003,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"a54cfde0-0971-bec3-b305-021388d3ba9a",
+									true,
+								},
+								
+								{
+									"cac03723-4433-183e-8736-c48361c90af1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fee4e966-bdef-3c49-89a7-9526b694fd80",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -9937,10 +10087,11 @@ local tbl =
 				eventType = 4,
 				mechanicTime = 356.8,
 				name = "MARKER SAM Mitigation (-2s)",
+				throttleTime = 5000,
 				timeRange = true,
 				timelineIndex = 68,
 				timerEndOffset = -0.5,
-				timerStartOffset = -2,
+				timerStartOffset = -10,
 				uuid = "5038b960-c8f7-2d49-89e4-5cedce114871",
 				version = 2,
 			},
@@ -9955,28 +10106,39 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "fbb3261b-e996-8710-b105-cd500c8e3a0f",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
 							name = "Oblation Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -9993,22 +10155,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -10024,22 +10177,13 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -10058,28 +10202,14 @@ local tbl =
 							{
 								
 								{
-									"dace436f-fbda-65a2-9047-00ca6c44502a",
-									true,
-								},
-								
-								{
-									"2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
-									true,
-								},
-								
-								{
-									"8ba238fb-51ee-947a-b0fd-258b68093552",
-									true,
-								},
-								
-								{
-									"f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
+									"502d1e0a-585d-2f89-87e9-79e85dc497ec",
 									true,
 								},
 							},
+							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
 							name = "TBN Healer",
-							targetType = "Detection Target",
+							targetType = "Event Entity",
 							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -10094,28 +10224,7 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								2680,
-								1178,
-								2682,
-								2683,
-								1178,
-							},
-							category = "Party",
-							dequeueIfLuaFalse = true,
-							name = "Healer Missing Buffs",
-							partyTargetType = "Healer",
-							uuid = "dace436f-fbda-65a2-9047-00ca6c44502a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 61,
+							actionCDValue = 1,
 							actionID = 25754,
 							category = "Self",
 							conditionType = 4,
@@ -10128,40 +10237,25 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 3,
-							buffDuration = 5,
-							buffID = 3934,
 							category = "Event",
-							comparator = 2,
 							eventArgType = 2,
+							eventEntityID = 538,
 							eventMarkerID = 234,
-							uuid = "f274ec03-6fa0-fad2-83f1-3db1fd26c0c7",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Party",
-							conditionType = 10,
-							inGroupTargetType = "Healer",
-							partyTargetType = "Event Entity",
-							uuid = "8ba238fb-51ee-947a-b0fd-258b68093552",
+							name = "Marker",
+							uuid = "502d1e0a-585d-2f89-87e9-79e85dc497ec",
 							version = 2,
 						},
 					},
 				},
 				eventType = 4,
-				loop = true,
 				mechanicTime = 356.8,
 				name = "MARKER Short Mitigation Nearest Healer (not WAR)(-4s)",
+				throttleTime = 3000,
 				timeRange = true,
 				timelineIndex = 68,
-				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -4,
-				uuid = "aad4d0d9-f002-9c8a-b5d8-54f6155d85d4",
+				timerStartOffset = -10,
+				uuid = "dcdbf640-0630-343f-a8f5-e9e79ad766c2",
 				version = 2,
 			},
 			inheritedIndex = 2,
@@ -10172,6 +10266,31 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"da85dc12-5798-c358-8d40-9e9a8cc0cf66",
+									true,
+								},
+								
+								{
+									"2606ab1f-d1c9-31b8-9242-57125acfd509",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "8a5e4847-dcf6-e91c-b9db-ace7cedded68",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
 					
 					{
 						data = 
@@ -10231,10 +10350,12 @@ local tbl =
 				loop = true,
 				mechanicTime = 356.8,
 				name = "MARKER RPR Crest (-3s)",
+				throttleTime = 4000,
+				timeRange = true,
 				timelineIndex = 68,
 				timerEndOffset = -1,
 				timerOffset = -3,
-				timerStartOffset = -3,
+				timerStartOffset = -10,
 				uuid = "bd55c942-a2d0-9e8e-a3f9-7d8ea7c505ac",
 				version = 2,
 			},
@@ -10436,8 +10557,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -10458,7 +10579,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 356.8,
 				name = "Instant Dash (1s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 68,
 				timerEndOffset = 3,
@@ -12512,8 +12632,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -12534,7 +12654,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 393.4,
 				name = "Instant Dash (0s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 75,
 				timerEndOffset = 2,
@@ -14074,8 +14193,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -14096,7 +14215,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 438.9,
 				name = "Instant Dash (0.5s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 84,
 				timerEndOffset = 2,
@@ -14709,8 +14827,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -14731,7 +14849,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 458.9,
 				name = "Instant Dash (0.5s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 90,
 				timerEndOffset = 2,
@@ -15322,8 +15439,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 5,
-							name = "> 5 yalms",
+							inRangeValue = 3,
+							name = "> 3 yalms",
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
@@ -15344,7 +15461,6 @@ local tbl =
 				loop = true,
 				mechanicTime = 476.9,
 				name = "Instant Dash (0s)",
-				throttleTime = 200,
 				timeRange = true,
 				timelineIndex = 95,
 				timerEndOffset = 2,
