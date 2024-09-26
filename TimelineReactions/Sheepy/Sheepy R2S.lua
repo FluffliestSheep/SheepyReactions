@@ -2551,35 +2551,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Lua",
-							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 79.5,
-				name = "Jumps OFF",
-				timelineIndex = 15,
-				timerOffset = -5,
-				uuid = "bb578927-854a-9f20-8b8c-7c433baee816",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							actionID = 7535,
 							actionLua = "SallyPLD.HotBarConfig.Reprisal.enabled = false\nSallyWAR.HotBarConfig.Reprisal.enabled = false\nSallyDRK.HotBarConfig.Reprisal.enabled = false\nSallyGNB.HotBarConfig.Reprisal.enabled = false\nself.used = true",
@@ -3201,6 +3172,64 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 87.4,
+				name = "Jumps OFF Centerstage",
+				timelineIndex = 16,
+				uuid = "ffe4d472-4763-bbc7-89a6-f434379522ec",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 87.4,
+				name = "Jumps ON Centerstage",
+				timelineIndex = 16,
+				timerOffset = 10,
+				uuid = "a102386b-8eb2-7d43-af96-0b243bf4754a",
+				version = 2,
+			},
+			inheritedIndex = 20,
+		},
 	},
 	[20] = 
 	{
@@ -3528,6 +3557,67 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+	},
+	[31] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.6,
+				name = "Jumps OFF Centerstage",
+				timelineIndex = 31,
+				uuid = "191734e6-ef0a-dd89-bff7-c1069e3412c8",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.6,
+				name = "Jumps ON Centerstage",
+				timelineIndex = 31,
+				timerOffset = 10,
+				uuid = "9e1653c2-c23e-cb64-b622-f09df71381fc",
+				version = 2,
+			},
+			inheritedIndex = 20,
 		},
 	},
 	[35] = 
@@ -3941,35 +4031,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Lua",
-							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 187.2,
-				name = "Jumps ON",
-				timelineIndex = 35,
-				uuid = "1bf43c59-3c87-99db-9373-815f9bbeb752",
-				version = 2,
-			},
-			inheritedIndex = 20,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
@@ -4123,42 +4184,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							endIfUsed = true,
-							gVar = "ACR_RikuMNK3_Hotbar_RiddleOfEarth",
-							uuid = "aea1e359-fc81-c170-a5ff-2cb48307be98",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				loop = true,
-				mechanicTime = 187.2,
-				name = "MNK Mitigation (-9s)",
-				randomOffset = -1,
-				timeRange = true,
-				timelineIndex = 35,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -9,
-				uuid = "ca093036-af5e-6427-ab19-486ebdfce17f",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							actionID = 18909,
 							actionLua = "SallyDRK.HotBarConfig.DarkMissionary.enabled = false\nself.used = true",
 							atomicPriority = true,
@@ -4222,6 +4247,42 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 15,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							endIfUsed = true,
+							gVar = "ACR_RikuMNK3_Hotbar_RiddleOfEarth",
+							uuid = "aea1e359-fc81-c170-a5ff-2cb48307be98",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				loop = true,
+				mechanicTime = 187.2,
+				name = "MNK Mitigation (-9s)",
+				randomOffset = -1,
+				timeRange = true,
+				timelineIndex = 35,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -9,
+				uuid = "ca093036-af5e-6427-ab19-486ebdfce17f",
+				version = 2,
+			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -5844,35 +5905,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Lua",
-							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 253.9,
-				name = "Jumps OFF",
-				timelineIndex = 42,
-				timerOffset = -5,
-				uuid = "d69a8516-2a39-fae7-b1ad-6573b32b5c20",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							actionID = 7535,
 							actionLua = "SallyPLD.HotBarConfig.Reprisal.enabled = false\nSallyWAR.HotBarConfig.Reprisal.enabled = false\nSallyDRK.HotBarConfig.Reprisal.enabled = false\nSallyGNB.HotBarConfig.Reprisal.enabled = false\nself.used = true",
@@ -6245,136 +6277,6 @@ local tbl =
 							{
 								
 								{
-									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
-									true,
-								},
-							},
-							gVar = "ACR_TensorRequiem3_Hotbar_Troubadour",
-							uuid = "87a5112d-01a7-c35e-8dfe-1d1215d36034",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
-									true,
-								},
-							},
-							gVar = "ACR_TensorMagnum3_Hotbar_Tactician",
-							uuid = "c4cbfd80-443d-8291-84e2-a54d12182448",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDNC3_Hotbar_ShieldSamba",
-							uuid = "eeff76af-97b3-ed1e-a3c9-5c144127b3ca",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 7560,
-							conditions = 
-							{
-								
-								{
-									"ea0a0868-9d95-ed28-844b-ab2da254f3cb",
-									true,
-								},
-							},
-							gVar = "ACR_TensorRuin3_Hotbar_Addle",
-							targetType = "Current Target",
-							uuid = "0c6af07f-234e-1977-9bd8-26b52dda0d9f",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								1934,
-								1951,
-								1826,
-							},
-							category = "Self",
-							dequeueIfLuaFalse = true,
-							name = "Missing Ranged Buffs",
-							uuid = "0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1203,
-							dequeueIfLuaFalse = true,
-							name = "Missing Addle Debuff",
-							uuid = "ea0a0868-9d95-ed28-844b-ab2da254f3cb",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 253.9,
-				name = "Ranged Mitigation (-4s)",
-				timeRange = true,
-				timelineIndex = 42,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -4,
-				uuid = "c20662b0-ea0e-9e49-ac8e-cbc0b6fadfcf",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
 									"cc5f1e05-c126-4582-aa2d-61121432224c",
 									true,
 								},
@@ -6511,6 +6413,136 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 16,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRequiem3_Hotbar_Troubadour",
+							uuid = "87a5112d-01a7-c35e-8dfe-1d1215d36034",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum3_Hotbar_Tactician",
+							uuid = "c4cbfd80-443d-8291-84e2-a54d12182448",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDNC3_Hotbar_ShieldSamba",
+							uuid = "eeff76af-97b3-ed1e-a3c9-5c144127b3ca",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 7560,
+							conditions = 
+							{
+								
+								{
+									"ea0a0868-9d95-ed28-844b-ab2da254f3cb",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRuin3_Hotbar_Addle",
+							targetType = "Current Target",
+							uuid = "0c6af07f-234e-1977-9bd8-26b52dda0d9f",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								1934,
+								1951,
+								1826,
+							},
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "Missing Ranged Buffs",
+							uuid = "0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1203,
+							dequeueIfLuaFalse = true,
+							name = "Missing Addle Debuff",
+							uuid = "ea0a0868-9d95-ed28-844b-ab2da254f3cb",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 253.9,
+				name = "Ranged Mitigation (-4s)",
+				timeRange = true,
+				timelineIndex = 42,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -4,
+				uuid = "c20662b0-ea0e-9e49-ac8e-cbc0b6fadfcf",
+				version = 2,
+			},
+			inheritedIndex = 10,
 		},
 	},
 	[43] = 
@@ -6657,6 +6689,66 @@ local tbl =
 				uuid = "9b366eeb-7eed-7ec6-b0cb-fff4f5c4b1e6",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 276,
+				name = "Jumps OFF",
+				timelineIndex = 45,
+				uuid = "4788894a-bec0-da68-9472-d3ce5ece5b6a",
+				version = 2,
+			},
+		},
+	},
+	[52] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 287,
+				name = "Jumps ON",
+				timelineIndex = 52,
+				uuid = "739ffa93-3d22-7a0a-86ad-db99263a273e",
+				version = 2,
+			},
+			inheritedIndex = 20,
 		},
 	},
 	[56] = 
@@ -7665,35 +7757,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Lua",
-							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 310.2,
-				name = "Jumps ON",
-				timelineIndex = 59,
-				uuid = "61fa2e62-ebf2-17e5-a331-64150b37b225",
-				version = 2,
-			},
-			inheritedIndex = 20,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
@@ -7958,6 +8021,81 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							actionID = 18909,
+							actionLua = "SallyDRK.HotBarConfig.DarkMissionary.enabled = false\nself.used = true",
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
+							uuid = "c5a0d7e4-0334-f896-83f4-a5ce022a6795",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"cc5f1e05-c126-4582-aa2d-61121432224c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "cd396155-1d6a-5547-8539-cc148c3a28a0",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								1894,
+								726,
+								1457,
+								1839,
+								1362,
+							},
+							category = "Party",
+							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
+							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 310.2,
+				name = "Raid Wide GNB/DRK (-14s)",
+				timeRange = true,
+				timelineIndex = 59,
+				timerEndOffset = -1,
+				timerOffset = -10,
+				timerStartOffset = -14,
+				uuid = "c4891265-4e20-12d5-b970-0039e7ef8180",
+				version = 2,
+			},
+			inheritedIndex = 15,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							conditions = 
 							{
 								
@@ -8076,113 +8214,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 14,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							actionID = 18909,
-							actionLua = "SallyDRK.HotBarConfig.DarkMissionary.enabled = false\nself.used = true",
-							atomicPriority = true,
-							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
-							uuid = "c5a0d7e4-0334-f896-83f4-a5ce022a6795",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"cc5f1e05-c126-4582-aa2d-61121432224c",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
-							uuid = "cd396155-1d6a-5547-8539-cc148c3a28a0",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								1894,
-								726,
-								1457,
-								1839,
-								1362,
-							},
-							category = "Party",
-							dequeueIfLuaFalse = true,
-							partyTargetType = "Healer",
-							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 310.2,
-				name = "Raid Wide GNB/DRK (-14s)",
-				timeRange = true,
-				timelineIndex = 59,
-				timerEndOffset = -1,
-				timerOffset = -10,
-				timerStartOffset = -14,
-				uuid = "c4891265-4e20-12d5-b970-0039e7ef8180",
-				version = 2,
-			},
-			inheritedIndex = 15,
-		},
-	},
-	[63] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Lua",
-							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 341.5,
-				name = "Jumps OFF",
-				timelineIndex = 63,
-				timerOffset = -5,
-				uuid = "715423cf-6e22-c787-90c4-af564c8d667f",
-				version = 2,
-			},
 		},
 	},
 	[64] = 
@@ -8808,6 +8839,65 @@ local tbl =
 			},
 			inheritedIndex = 9,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 341.7,
+				name = "Jumps OFF Poison Sting",
+				timelineIndex = 64,
+				timerOffset = -3,
+				uuid = "1eb4e347-a430-3189-ba55-be437b4cb94b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 341.7,
+				name = "Jumps ON Poison Sting",
+				timelineIndex = 64,
+				timerOffset = 1,
+				uuid = "6bd45a76-fba2-b90e-a0e7-f4f76a8a4a59",
+				version = 2,
+			},
+			inheritedIndex = 20,
+		},
 	},
 	[66] = 
 	{
@@ -9399,6 +9489,65 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 346.7,
+				name = "Jumps OFF Poison Sting",
+				timelineIndex = 66,
+				timerOffset = -3,
+				uuid = "b6dd4e45-a694-b00e-b58b-084cfb0085a5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 346.7,
+				name = "Jumps ON Poison Sting",
+				timelineIndex = 66,
+				timerOffset = 1,
+				uuid = "68b03012-f7e5-14a1-bbdf-db865a0c2015",
+				version = 2,
+			},
+			inheritedIndex = 20,
 		},
 	},
 	[67] = 
@@ -9994,6 +10143,65 @@ local tbl =
 			},
 			inheritedIndex = 9,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 351.7,
+				name = "Jumps OFF Poison Sting",
+				timelineIndex = 67,
+				timerOffset = -3,
+				uuid = "3e7046b0-1276-efbd-806d-00cce3870d53",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 351.7,
+				name = "Jumps ON Poison Sting",
+				timelineIndex = 67,
+				timerOffset = 1,
+				uuid = "f07b3423-d74f-94f0-ba76-40d2ba337d2c",
+				version = 2,
+			},
+			inheritedIndex = 20,
+		},
 	},
 	[68] = 
 	{
@@ -10587,6 +10795,95 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 356.8,
+				name = "Jumps ON",
+				timelineIndex = 68,
+				timerOffset = 10,
+				uuid = "ed4afc19-bf46-9187-9b29-fe2fa4f0d086",
+				version = 2,
+			},
+			inheritedIndex = 20,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 356.8,
+				name = "Jumps OFF Poison Sting",
+				timelineIndex = 68,
+				timerOffset = -3,
+				uuid = "8d7e65b9-032a-c416-9ee4-0db7455f3067",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 356.8,
+				name = "Jumps ON Poison Sting",
+				timelineIndex = 68,
+				timerOffset = 1,
+				uuid = "f6833f5f-6d9e-4f5c-bc09-11f79244c1d8",
+				version = 2,
+			},
+			inheritedIndex = 20,
 		},
 	},
 	[70] = 
@@ -13023,35 +13320,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Lua",
-							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 412.8,
-				name = "Jumps OFF",
-				timelineIndex = 78,
-				timerOffset = -5,
-				uuid = "3dce3790-0f3a-4898-9eba-3cd210bac0fa",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							actionID = 7535,
 							actionLua = "SallyPLD.HotBarConfig.Reprisal.enabled = false\nSallyWAR.HotBarConfig.Reprisal.enabled = false\nSallyDRK.HotBarConfig.Reprisal.enabled = false\nSallyGNB.HotBarConfig.Reprisal.enabled = false\nself.used = true",
@@ -13559,6 +13827,67 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 16,
+		},
+	},
+	[80] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 426.8,
+				name = "Jumps OFF Centerstage",
+				timelineIndex = 80,
+				uuid = "9daceb2c-39e9-8f02-b8fb-876447b1648c",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 426.8,
+				name = "Jumps ON Centerstage",
+				timelineIndex = 80,
+				timerOffset = 10,
+				uuid = "87ffef13-dd4c-8779-8aa9-59b95f578d4b",
+				version = 2,
+			},
+			inheritedIndex = 20,
 		},
 	},
 	[84] = 
@@ -14224,6 +14553,126 @@ local tbl =
 			},
 			inheritedIndex = 9,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 438.9,
+				name = "Jumps OFF Burst",
+				timelineIndex = 84,
+				timerOffset = -5,
+				uuid = "a39e6b30-7620-d610-9aa5-901a598157fa",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 438.9,
+				name = "Jumps ON Burst",
+				timelineIndex = 84,
+				timerOffset = 1,
+				uuid = "7657ddfb-3c04-fc04-8825-3c3f179ed77c",
+				version = 2,
+			},
+			inheritedIndex = 20,
+		},
+	},
+	[86] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 446.4,
+				name = "Jumps OFF Centerstage",
+				timelineIndex = 86,
+				uuid = "d5abe7fb-008b-6c6f-b811-7ec1d5c3dc9f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 446.4,
+				name = "Jumps ON Centerstage",
+				timelineIndex = 86,
+				timerOffset = 10,
+				uuid = "438195e0-dec4-3d36-ad51-9a6ddc9f2832",
+				version = 2,
+			},
+			inheritedIndex = 20,
+		},
 	},
 	[90] = 
 	{
@@ -14857,6 +15306,65 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", false)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 458.9,
+				name = "Jumps OFF Burst",
+				timelineIndex = 90,
+				timerOffset = -5,
+				uuid = "0d9210fc-0e0a-3e30-a04c-38a2262e0d25",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 458.9,
+				name = "Jumps ON Burst",
+				timelineIndex = 90,
+				timerOffset = 1,
+				uuid = "d869c9ad-280b-7690-afd8-b313cb843177",
+				version = 2,
+			},
+			inheritedIndex = 20,
 		},
 	},
 	[95] = 
@@ -15882,35 +16390,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Lua",
-							actionLua = "AnyoneCore.Toggle(\"jumps\", true)\nself.used = true",
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 484.9,
-				name = "Jumps ON",
-				timelineIndex = 97,
-				uuid = "faa97319-ab7d-cea8-83d2-6f96d303db02",
-				version = 2,
-			},
-			inheritedIndex = 20,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
@@ -16194,42 +16673,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							endIfUsed = true,
-							gVar = "ACR_RikuMNK3_Hotbar_RiddleOfEarth",
-							uuid = "aea1e359-fc81-c170-a5ff-2cb48307be98",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				loop = true,
-				mechanicTime = 484.9,
-				name = "MNK Mitigation (-9s)",
-				randomOffset = -1,
-				timeRange = true,
-				timelineIndex = 97,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -9,
-				uuid = "82640ca7-e3c3-bb71-8021-442414cd3b31",
-				version = 2,
-			},
-			inheritedIndex = 10,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							actionID = 18909,
 							actionLua = "SallyDRK.HotBarConfig.DarkMissionary.enabled = false\nself.used = true",
 							atomicPriority = true,
@@ -16293,6 +16736,42 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 15,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							endIfUsed = true,
+							gVar = "ACR_RikuMNK3_Hotbar_RiddleOfEarth",
+							uuid = "aea1e359-fc81-c170-a5ff-2cb48307be98",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				loop = true,
+				mechanicTime = 484.9,
+				name = "MNK Mitigation (-9s)",
+				randomOffset = -1,
+				timeRange = true,
+				timelineIndex = 97,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -9,
+				uuid = "82640ca7-e3c3-bb71-8021-442414cd3b31",
+				version = 2,
+			},
+			inheritedIndex = 10,
 		},
 		
 		{
@@ -17179,6 +17658,59 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 7,
+		},
+	},
+	[100] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"e413e065-0cfc-32a2-8c6a-9eb19eef153e",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Burn",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 3,
+							hpValue = 3,
+							uuid = "e413e065-0cfc-32a2-8c6a-9eb19eef153e",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 508.2,
+				name = "Burn < 3% HP",
+				timeRange = true,
+				timelineIndex = 100,
+				timerEndOffset = 100,
+				timerOffset = 2,
+				uuid = "950202af-fa3f-8a41-a0db-74b2174e926a",
+				version = 2,
+			},
+			inheritedIndex = 19,
 		},
 	},
 	[102] = 

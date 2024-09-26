@@ -14650,6 +14650,59 @@ local tbl =
 			inheritedIndex = 19,
 		},
 	},
+	[138] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"e413e065-0cfc-32a2-8c6a-9eb19eef153e",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Burn",
+							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 3,
+							hpValue = 3,
+							uuid = "e413e065-0cfc-32a2-8c6a-9eb19eef153e",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 599,
+				name = "Burn < 3% HP",
+				timeRange = true,
+				timelineIndex = 138,
+				timerEndOffset = 150,
+				timerOffset = 2,
+				uuid = "583c0ba1-b0d9-f3cf-a3b1-93f7053a66be",
+				version = 2,
+			},
+			inheritedIndex = 19,
+		},
+	},
 	[139] = 
 	{
 		
