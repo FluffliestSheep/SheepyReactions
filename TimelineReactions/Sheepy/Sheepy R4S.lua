@@ -8381,7 +8381,12 @@ local tbl =
 							{
 								
 								{
-									"d0fa54d7-9fb2-9177-9993-ef01f5f2dab7",
+									"ca2a9e4b-c2bd-514e-8d06-8bb51d41b5f6",
+									true,
+								},
+								
+								{
+									"ba20d697-4beb-2081-9a56-ae696c657c1b",
 									true,
 								},
 							},
@@ -8401,7 +8406,12 @@ local tbl =
 							{
 								
 								{
-									"d0fa54d7-9fb2-9177-9993-ef01f5f2dab7",
+									"ca2a9e4b-c2bd-514e-8d06-8bb51d41b5f6",
+									true,
+								},
+								
+								{
+									"ebc72e41-fd0c-db3f-a5cc-abb4a558aa91",
 									true,
 								},
 							},
@@ -8420,7 +8430,12 @@ local tbl =
 							{
 								
 								{
-									"d0fa54d7-9fb2-9177-9993-ef01f5f2dab7",
+									"ca2a9e4b-c2bd-514e-8d06-8bb51d41b5f6",
+									true,
+								},
+								
+								{
+									"48693e17-9800-31a9-a836-412ecb394902",
 									true,
 								},
 							},
@@ -8439,7 +8454,12 @@ local tbl =
 							{
 								
 								{
-									"d0fa54d7-9fb2-9177-9993-ef01f5f2dab7",
+									"ca2a9e4b-c2bd-514e-8d06-8bb51d41b5f6",
+									true,
+								},
+								
+								{
+									"7c0c21b0-11d8-afd9-89d8-a7132d828fe2",
 									true,
 								},
 							},
@@ -8457,17 +8477,72 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"ot\"",
-							dequeueIfLuaFalse = true,
-							name = "is OT",
-							uuid = "d0fa54d7-9fb2-9177-9993-ef01f5f2dab7",
+							comparator = 2,
+							conditionType = 4,
+							enmityValue = 99,
+							uuid = "ca2a9e4b-c2bd-514e-8d06-8bb51d41b5f6",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 30,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							name = "Hallowed Ready ",
+							uuid = "ba20d697-4beb-2081-9a56-ae696c657c1b",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 43,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							name = "Holmgang Ready",
+							uuid = "ebc72e41-fd0c-db3f-a5cc-abb4a558aa91",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 3638,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							name = "LD Ready",
+							uuid = "48693e17-9800-31a9-a836-412ecb394902",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 16152,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							name = "Bollide Ready",
+							uuid = "7c0c21b0-11d8-afd9-89d8-a7132d828fe2",
 							version = 2,
 						},
 					},
 				},
 				mechanicTime = 280.4,
-				name = "Provoke if OT Backup (-5s)",
+				name = "Provoke cuz messed up first TB (-5s)",
 				timelineIndex = 47,
 				timerOffset = -5,
 				uuid = "e25a4d30-99f5-aa84-a441-4d3eccccfcab",
@@ -8489,7 +8564,12 @@ local tbl =
 							{
 								
 								{
-									"520049e9-f6e3-3cda-8709-7d072bcaf072",
+									"afa6813d-3984-0053-8d8f-74cdf5156781",
+									true,
+								},
+								
+								{
+									"f9789a29-801d-640f-a177-4b492fd3bed1",
 									true,
 								},
 							},
@@ -8508,7 +8588,12 @@ local tbl =
 							{
 								
 								{
-									"520049e9-f6e3-3cda-8709-7d072bcaf072",
+									"afa6813d-3984-0053-8d8f-74cdf5156781",
+									true,
+								},
+								
+								{
+									"291af765-992f-fa8a-9d0c-cdd30f4fed13",
 									true,
 								},
 							},
@@ -8527,7 +8612,12 @@ local tbl =
 							{
 								
 								{
-									"520049e9-f6e3-3cda-8709-7d072bcaf072",
+									"afa6813d-3984-0053-8d8f-74cdf5156781",
+									true,
+								},
+								
+								{
+									"c999d723-b1c3-ab40-9d51-eafd0fd37b89",
 									true,
 								},
 							},
@@ -8546,7 +8636,12 @@ local tbl =
 							{
 								
 								{
-									"520049e9-f6e3-3cda-8709-7d072bcaf072",
+									"afa6813d-3984-0053-8d8f-74cdf5156781",
+									true,
+								},
+								
+								{
+									"6923a697-32e3-c783-b2d5-7a4066b3f199",
 									true,
 								},
 							},
@@ -8563,17 +8658,68 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "is MT",
-							uuid = "520049e9-f6e3-3cda-8709-7d072bcaf072",
+							conditionType = 4,
+							enmityValue = 100,
+							uuid = "afa6813d-3984-0053-8d8f-74cdf5156781",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 30,
+							category = "Self",
+							conditionType = 4,
+							name = "Hallowed Not Ready ",
+							uuid = "f9789a29-801d-640f-a177-4b492fd3bed1",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 43,
+							category = "Self",
+							conditionType = 4,
+							name = "Holmgang Not Ready",
+							uuid = "291af765-992f-fa8a-9d0c-cdd30f4fed13",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 3638,
+							category = "Self",
+							conditionType = 4,
+							name = "LD Not Ready",
+							uuid = "c999d723-b1c3-ab40-9d51-eafd0fd37b89",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 16152,
+							category = "Self",
+							conditionType = 4,
+							name = "Bollide Not Ready",
+							uuid = "6923a697-32e3-c783-b2d5-7a4066b3f199",
 							version = 2,
 						},
 					},
 				},
 				eventType = 2,
 				mechanicTime = 280.4,
-				name = "Shirk if MT Backup (-2s)",
+				name = "Shirk cuz messed up first TB (-2s)",
 				timelineIndex = 47,
 				timerEndOffset = 5,
 				timerOffset = -2,
@@ -8684,9 +8830,9 @@ local tbl =
 					},
 				},
 				mechanicTime = 288.7,
-				name = "Invuln if OT (0.5s)",
+				name = "Invuln if OT (-2.5s)",
 				timelineIndex = 48,
-				timerOffset = 0.5,
+				timerOffset = -2.5,
 				uuid = "4bcbe1e0-28d6-6545-bd08-10920213e3a2",
 				version = 2,
 			},
@@ -8797,10 +8943,10 @@ local tbl =
 					},
 				},
 				mechanicTime = 288.7,
-				name = "Strong Mitigation OT (-3s)",
+				name = "Strong Mitigation OT (-4s)",
 				timelineIndex = 48,
 				timerEndOffset = -1,
-				timerOffset = -3,
+				timerOffset = -4,
 				timerStartOffset = -5,
 				uuid = "01da9d10-b655-062b-895a-14439734f02d",
 				version = 2,

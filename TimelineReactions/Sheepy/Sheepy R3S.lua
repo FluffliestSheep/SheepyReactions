@@ -1565,6 +1565,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 			},
 		},
 		
@@ -4027,6 +4028,20 @@ local tbl =
 	},
 	[26] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "Instant Dash",
+				uuid = "04960ec6-cbfa-9f11-b891-5fdbf8487edf",
+				version = 2,
+			},
+			inheritedObjectUUID = "a025ae98-0840-35c6-8ce9-2b6602c4c4c2",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -8311,6 +8326,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Instant Dash",
+				uuid = "4e48826b-b00e-98a1-9323-467106069307",
+				version = 2,
+			},
+			inheritedObjectUUID = "7e346118-9686-5056-8e98-7a192f93fd65",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -10946,6 +10975,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Instant Dash",
+				uuid = "b7d9d1f6-68fc-958e-9e01-2e2f07088af8",
+				version = 2,
+			},
+			inheritedObjectUUID = "965b6b6d-8afd-4dee-8af4-8a8e1a97708e",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -11257,12 +11300,237 @@ local tbl =
 				name = "Instant Dash Middle (0s)",
 				timeRange = true,
 				timelineIndex = 61,
-				timerEndOffset = 1,
-				timerStartOffset = -1,
+				timerEndOffset = 2,
+				timerStartOffset = -8,
 				uuid = "ebb2e12c-a963-1026-b07b-ab6337f921da",
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"cc5f1e05-c126-4582-aa2d-61121432224c",
+									true,
+								},
+								
+								{
+									"e8d5c86a-39c3-f75b-b513-0a75b3bedea2",
+									true,
+								},
+							},
+							fallthrough = true,
+							gVar = "ACR_RikuWAR3_Tankbar_ThrillOfBattle",
+							uuid = "e1978567-2101-4cc6-b98f-16e72f720f8e",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"cc5f1e05-c126-4582-aa2d-61121432224c",
+									true,
+								},
+								
+								{
+									"e8d5c86a-39c3-f75b-b513-0a75b3bedea2",
+									true,
+								},
+							},
+							fallthrough = true,
+							gVar = "ACR_RikuWAR3_Tankbar_Bloodwhetting",
+							uuid = "47334392-e500-48f5-abf0-7c7689dece73",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"cc5f1e05-c126-4582-aa2d-61121432224c",
+									true,
+								},
+								
+								{
+									"e8d5c86a-39c3-f75b-b513-0a75b3bedea2",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_ShakeItOff",
+							uuid = "065b26e8-d2c1-9acb-bd0f-54c78337d0a4",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"cc5f1e05-c126-4582-aa2d-61121432224c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD3_Tankbar_DivineVeil",
+							uuid = "17800e71-660a-b4fd-ac29-2ccee53cebe0",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								1894,
+								726,
+								1457,
+								1839,
+								1362,
+							},
+							category = "Party",
+							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
+							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7388,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							name = "Shake Ready",
+							uuid = "e8d5c86a-39c3-f75b-b513-0a75b3bedea2",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 413.7,
+				name = "Raid Wide WAR/PLD (-7s)",
+				timelineIndex = 61,
+				timerEndOffset = -1,
+				timerOffset = -7,
+				timerStartOffset = -7,
+				uuid = "6e346bc2-d983-250a-948d-166adf2d47d0",
+				version = 2,
+			},
+			inheritedIndex = 16,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							actionID = 18909,
+							actionLua = "SallyDRK.HotBarConfig.DarkMissionary.enabled = false\nself.used = true",
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
+							uuid = "c5a0d7e4-0334-f896-83f4-a5ce022a6795",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"cc5f1e05-c126-4582-aa2d-61121432224c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "cd396155-1d6a-5547-8539-cc148c3a28a0",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								1894,
+								726,
+								1457,
+								1839,
+								1362,
+							},
+							category = "Party",
+							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
+							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 413.7,
+				name = "Raid Wide GNB/DRK (-14s)",
+				timelineIndex = 61,
+				timerEndOffset = -1,
+				timerOffset = -14,
+				timerStartOffset = -11,
+				uuid = "68ced544-799b-a3a8-8415-54eeeae2a0a6",
+				version = 2,
+			},
+			inheritedIndex = 8,
 		},
 	},
 	[68] = 
@@ -11670,6 +11938,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				name = "Instant Dash",
+				uuid = "a9ca9d3f-2902-f71f-8553-d00ee5183892",
+				version = 2,
+			},
+			inheritedObjectUUID = "2e59fcad-43dc-50a8-8e45-650570a80a34",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
