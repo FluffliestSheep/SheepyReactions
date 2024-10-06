@@ -3366,7 +3366,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
@@ -3644,7 +3643,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
@@ -3678,7 +3676,7 @@ local tbl =
 				timerEndOffset = -1,
 				timerOffset = -7,
 				timerStartOffset = -7,
-				uuid = "833d61e4-7598-3f0f-85ee-bc877e625f8c",
+				uuid = "55961835-9e38-c2b6-b018-f1590a1c173d",
 				version = 2,
 			},
 			inheritedIndex = 16,
@@ -6361,7 +6359,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
@@ -9359,7 +9356,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
@@ -13723,7 +13719,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
@@ -16174,7 +16169,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
@@ -18978,7 +18972,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
@@ -19132,7 +19125,6 @@ local tbl =
 							buffIDList = 
 							{
 								1894,
-								726,
 								1457,
 								1839,
 								1362,
