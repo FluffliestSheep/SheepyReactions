@@ -497,9 +497,9 @@ local tbl =
 				conditions = 
 				{
 				},
-				loop = true,
 				mechanicTime = 34,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 6,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -986,6 +986,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 24401,
 							allowInterrupt = true,
 							conditions = 
@@ -996,10 +997,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_TensorReaper3_CD",
+							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -1024,8 +1026,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
+							inRangeValue = 10,
+							name = "> 12 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
 							version = 2,
 						},
@@ -1245,6 +1247,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 53,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 10,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -1731,6 +1734,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 24401,
 							allowInterrupt = true,
 							conditions = 
@@ -1741,10 +1745,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_TensorReaper3_CD",
+							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -1769,8 +1774,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
+							inRangeValue = 10,
+							name = "> 10 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
 							version = 2,
 						},
@@ -3059,6 +3064,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 79.5,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 15,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -3882,6 +3888,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 137.3,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 28,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -4061,6 +4068,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 24401,
 							allowInterrupt = true,
 							conditions = 
@@ -4071,10 +4079,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_TensorReaper3_CD",
+							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -4099,8 +4108,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
+							inRangeValue = 10,
+							name = "> 12 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
 							version = 2,
 						},
@@ -4758,6 +4767,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 187.2,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 35,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -6363,6 +6373,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 24401,
 							allowInterrupt = true,
 							conditions = 
@@ -6373,10 +6384,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_TensorReaper3_CD",
+							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -6401,8 +6413,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
+							inRangeValue = 10,
+							name = "> 12 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
 							version = 2,
 						},
@@ -6622,6 +6634,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 253.9,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 42,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -7884,6 +7897,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 301.2,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 56,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -8174,6 +8188,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 24401,
 							allowInterrupt = true,
 							conditions = 
@@ -8184,10 +8199,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_TensorReaper3_CD",
+							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -8212,8 +8228,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
+							inRangeValue = 10,
+							name = "> 12 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
 							version = 2,
 						},
@@ -8228,7 +8244,7 @@ local tbl =
 				uuid = "b31f70af-6c28-ef40-9849-6be5e2b6c24f",
 				version = 2,
 			},
-			inheritedIndex = 6,
+			inheritedIndex = 9,
 		},
 		
 		{
@@ -9042,6 +9058,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 310.2,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 59,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -12429,6 +12446,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 368,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 70,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -13907,6 +13925,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 393.4,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 75,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -14393,6 +14412,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 24401,
 							allowInterrupt = true,
 							conditions = 
@@ -14403,10 +14423,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_TensorReaper3_CD",
+							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -14431,8 +14452,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
+							inRangeValue = 10,
+							name = "> 12 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
 							version = 2,
 						},
@@ -14978,6 +14999,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 412.8,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 78,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -17297,6 +17319,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 476.9,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 95,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -17783,6 +17806,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 24401,
 							allowInterrupt = true,
 							conditions = 
@@ -17793,10 +17817,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_TensorReaper3_CD",
+							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -17821,8 +17846,8 @@ local tbl =
 						{
 							conditionType = 6,
 							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
+							inRangeValue = 10,
+							name = "> 12 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
 							version = 2,
 						},
@@ -18419,6 +18444,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 484.9,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 97,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -19719,7 +19745,8 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							aType = "Lua",
+							actionLua = "local currentACR = gACRSelectedProfiles[TensorCore.mGetPlayer().job]\nif currentACR ~= nil and _G[\"ACR_\"..currentACR..\"_Burn\"] == false then\n_G[\"ACR_\"..currentACR..\"_Burn\"] = true end\nself.used = true",
 							conditions = 
 							{
 								
@@ -19728,8 +19755,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR3_Burn",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							endIfUsed = true,
+							gVar = "ACR_TensorRequiem3_AOE",
+							gVarValue = 2,
+							name = "Burn",
+							uuid = "ca709c6f-9289-8806-9167-fbe6723fde71",
 							version = 2.1,
 						},
 					},
@@ -20343,6 +20373,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 515,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 102,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -21135,6 +21166,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 531.5,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 103,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -22276,6 +22308,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 548.6,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 104,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -23422,6 +23455,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 565.7,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 105,
 				timerEndOffset = -1,
 				timerOffset = -3,
@@ -25325,6 +25359,7 @@ local tbl =
 				loop = true,
 				mechanicTime = 582.9,
 				name = "RPR Crest (-3s)",
+				timeRange = true,
 				timelineIndex = 106,
 				timerEndOffset = -1,
 				timerOffset = -3,

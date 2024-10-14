@@ -16490,7 +16490,8 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							aType = "Lua",
+							actionLua = "local currentACR = gACRSelectedProfiles[TensorCore.mGetPlayer().job]\nif currentACR ~= nil and _G[\"ACR_\"..currentACR..\"_Burn\"] == false then\n_G[\"ACR_\"..currentACR..\"_Burn\"] = true end\nself.used = true",
 							conditions = 
 							{
 								
@@ -16499,8 +16500,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR3_Burn",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							endIfUsed = true,
+							gVar = "ACR_TensorRequiem3_AOE",
+							gVarValue = 2,
+							name = "Burn",
+							uuid = "ca709c6f-9289-8806-9167-fbe6723fde71",
 							version = 2.1,
 						},
 					},
@@ -16523,9 +16527,9 @@ local tbl =
 				name = "Burn < 3% HP",
 				timeRange = true,
 				timelineIndex = 138,
-				timerEndOffset = 150,
+				timerEndOffset = 100,
 				timerOffset = 2,
-				uuid = "583c0ba1-b0d9-f3cf-a3b1-93f7053a66be",
+				uuid = "3932e7d6-d966-20a8-a11e-a81631dfac2f",
 				version = 2,
 			},
 			inheritedIndex = 19,

@@ -29,16 +29,6 @@ local tbl =
 							version = 2.1,
 						},
 					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_HoldOneJump",
-							uuid = "ed271a1d-0561-efdc-8ab9-6968d3b5dd46",
-							version = 2.1,
-						},
-					},
 				},
 				conditions = 
 				{
@@ -151,6 +141,20 @@ local tbl =
 	},
 	
 	{
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "d356d88f-bae3-fee6-b92e-60cbf7b4cfd1",
+				version = 2,
+			},
+			inheritedObjectUUID = "a5b0dda0-0b51-59a6-a010-1ab2b89d7479",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -767,6 +771,7 @@ local tbl =
 				mechanicTime = 41.3,
 				name = "Stance",
 				timelineIndex = 6,
+				timerOffset = -2,
 				uuid = "d76dac70-90b0-5a35-b973-9af7d8a3acca",
 				version = 2,
 			},
@@ -1116,6 +1121,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "d793b666-fc69-eea5-ad15-5e58adb9ad6c",
+				version = 2,
+			},
+			inheritedObjectUUID = "4bbd944a-4b94-c1cb-b751-2763c4aa5605",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "0e0706b3-8cee-41e6-a2a4-918bfd1267b9",
+				version = 2,
+			},
+			inheritedObjectUUID = "489c76f9-9bd7-c9ca-bac2-f84639b3cafd",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -1328,7 +1361,6 @@ local tbl =
 						},
 					},
 				},
-				loop = true,
 				mechanicTime = 49.6,
 				name = "Instant Dash (0.2s)",
 				timeRange = true,
@@ -2153,6 +2185,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "71c4a5d3-8390-3e43-9d0b-fb10b549f23c",
+				version = 2,
+			},
+			inheritedObjectUUID = "46946b36-56b9-103c-98a4-9b3b1816bb46",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -2352,6 +2398,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 98.4,
 				name = "Reprisal (-14s)",
 				timeRange = true,
@@ -2363,6 +2410,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "ba568e20-c5b4-5f76-adf1-0efa2a659734",
+				version = 2,
+			},
+			inheritedObjectUUID = "4332bae2-5d12-4ce2-913a-2278583eacae",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -3386,6 +3447,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 134.4,
 				name = "Reprisal (-14s)",
 				timeRange = true,
@@ -4368,6 +4430,37 @@ local tbl =
 			},
 		},
 	},
+	[30] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "[Melee] Immediate Feint",
+				uuid = "bee38203-32d1-ad2b-b456-b0f73994bc2f",
+				version = 2,
+			},
+			inheritedObjectUUID = "ab135cd5-2ea2-cdc6-9316-345a7c2986c8",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "e4b5aeea-36b4-10a8-9e60-70e855610810",
+				version = 2,
+			},
+			inheritedObjectUUID = "4fb8d69d-c310-c260-9997-a73cfc756e99",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+	},
 	[32] = 
 	{
 		
@@ -4978,6 +5071,48 @@ local tbl =
 	},
 	[35] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "[Melee] Immediate Feint",
+				uuid = "8d2acd74-1c4d-f590-ad86-2912662f4230",
+				version = 2,
+			},
+			inheritedObjectUUID = "bc5bfe44-0dc7-0968-ae20-bad6b18b0a06",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "61648386-30d5-0907-bf3e-7cfa85a89b6a",
+				version = 2,
+			},
+			inheritedObjectUUID = "760a8a3b-fc79-cfae-a462-44d2e0470c80",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "b640fa7a-faac-be7e-9946-0e59d8f36443",
+				version = 2,
+			},
+			inheritedObjectUUID = "a5608509-02e5-6e1e-97bd-0240c806cf3d",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -7407,6 +7542,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 249.2,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -8801,6 +8937,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 262.3,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -9424,6 +9561,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 275.3,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -9549,6 +9687,34 @@ local tbl =
 	},
 	[47] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "[Melee] Immediate Feint",
+				uuid = "3053f808-56d9-7fad-b31e-c9be6fd57e8e",
+				version = 2,
+			},
+			inheritedObjectUUID = "9917e541-50be-11c2-b75b-c3b9a3457a1d",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "4ebe9a70-1614-035c-9dad-9c00ca7faaf9",
+				version = 2,
+			},
+			inheritedObjectUUID = "fa9d30cc-c521-1a66-ab5a-5b0c6303d3a2",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -11061,6 +11227,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "42d47ac8-2584-c04f-86b3-896334f559bd",
+				version = 2,
+			},
+			inheritedObjectUUID = "a9a2924f-6a78-399c-a0f9-767603bd630e",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "6408395c-c532-3b5f-865c-60ab53b0ebd3",
+				version = 2,
+			},
+			inheritedObjectUUID = "bb4652bb-502e-e494-96e9-a86d3bc9c070",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -11718,6 +11912,20 @@ local tbl =
 	},
 	[68] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "2876b9fb-856b-d865-bafc-6d3fddc3c4e5",
+				version = 2,
+			},
+			inheritedObjectUUID = "f6de5dcc-664e-edc8-9bf3-b487e412274b",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -12526,6 +12734,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "92320282-85c7-2ab0-8023-17766e1d136c",
+				version = 2,
+			},
+			inheritedObjectUUID = "ea2f70c6-92b5-4d7f-b01f-e1bbf06d2573",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -12691,6 +12913,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 383.9,
 				name = "Reprisal (-15s)",
 				timeRange = true,
@@ -12702,6 +12925,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "d6091d76-4186-b6d0-8b57-e590a8ebafb3",
+				version = 2,
+			},
+			inheritedObjectUUID = "0a6ec17f-8e7e-8469-95b2-770ffa7ca40d",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -13587,6 +13824,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 408.1,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -13821,6 +14059,136 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRequiem3_Hotbar_Troubadour",
+							uuid = "87a5112d-01a7-c35e-8dfe-1d1215d36034",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum3_Hotbar_Tactician",
+							uuid = "c4cbfd80-443d-8291-84e2-a54d12182448",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDNC3_Hotbar_ShieldSamba",
+							uuid = "eeff76af-97b3-ed1e-a3c9-5c144127b3ca",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 7560,
+							conditions = 
+							{
+								
+								{
+									"ea0a0868-9d95-ed28-844b-ab2da254f3cb",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRuin3_Hotbar_Addle",
+							targetType = "Current Target",
+							uuid = "0c6af07f-234e-1977-9bd8-26b52dda0d9f",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								1934,
+								1951,
+								1826,
+							},
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "Missing Ranged Buffs",
+							uuid = "0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1203,
+							dequeueIfLuaFalse = true,
+							name = "Missing Addle Debuff",
+							uuid = "ea0a0868-9d95-ed28-844b-ab2da254f3cb",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 408.1,
+				name = "Ranged Mitigation (-3s)",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -3,
+				uuid = "ba594792-fd9d-f092-852d-51d324338a14",
+				version = 2,
+			},
+			inheritedIndex = 13,
 		},
 		
 		{
@@ -15318,6 +15686,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "dd30a620-a0e4-bccb-af28-dcef8576dafb",
+				version = 2,
+			},
+			inheritedObjectUUID = "7c3878c9-3561-57ae-b71a-03c96342386e",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -15483,6 +15865,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 462.6,
 				name = "Reprisal (-14s)",
 				timeRange = true,
@@ -15494,6 +15877,34 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "669fa94d-cf2f-e580-b0b0-aaf245ed5852",
+				version = 2,
+			},
+			inheritedObjectUUID = "c1e3398d-930e-fcc7-a079-02bfeabd0949",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "a8925c68-d804-daf0-b1c8-4eee04f6d8d8",
+				version = 2,
+			},
+			inheritedObjectUUID = "49dce865-5c37-3d84-bd73-accb0b1a2cde",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -16136,6 +16547,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "ff00cfa4-9db3-c606-b63b-0eb7a557c576",
+				version = 2,
+			},
+			inheritedObjectUUID = "d2bb2619-40c7-64d6-a4ab-9c0c10ab90bf",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "c17eafbe-2ffa-3f0b-8880-67f2146241f0",
+				version = 2,
+			},
+			inheritedObjectUUID = "67105a5a-5231-aefd-8291-3165d600753d",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -16301,6 +16740,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 500.9,
 				name = "Reprisal (-14s)",
 				timeRange = true,
@@ -18445,6 +18885,51 @@ local tbl =
 			inheritedIndex = 6,
 		},
 	},
+	[97] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "[Melee] Immediate Feint",
+				uuid = "012fc99a-9ba5-7a60-abf3-65b8965ebf94",
+				version = 2,
+			},
+			inheritedObjectUUID = "51184a2f-e80f-cf07-9985-d1c8f9693fbb",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "01d68c30-89a3-0689-bda6-9916d961e71c",
+				version = 2,
+			},
+			inheritedObjectUUID = "a9a2a5e5-9226-9020-a7a2-e1e73c22a3a3",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "47d5f3e0-eeb1-5517-8b32-3f795d6eaa50",
+				version = 2,
+			},
+			inheritedObjectUUID = "105c652d-8b11-56f7-a824-fcb310fb1de3",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+	},
 	[98] = 
 	{
 		
@@ -18681,6 +19166,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 563.6,
 				name = "Reprisal (-14s)",
 				timeRange = true,
@@ -21308,6 +21794,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "3053bc79-d2c6-a021-8e5c-b7197c0a8cbb",
+				version = 2,
+			},
+			inheritedObjectUUID = "2425a6b2-7c8e-3aee-8756-4d0f4c746609",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -21473,6 +21973,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 662.8,
 				name = "Reprisal (-14s)",
 				timeRange = true,
@@ -21484,6 +21985,34 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "2e11c182-ec7c-a626-b9ad-aa6ecd78572c",
+				version = 2,
+			},
+			inheritedObjectUUID = "87f936be-3032-5e7a-84e2-5f918494fcdb",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "9fa39159-c36a-8426-b033-a07aab2e8815",
+				version = 2,
+			},
+			inheritedObjectUUID = "679d6f4f-0f92-f9d7-8212-6cde75d7d133",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -21601,6 +22130,20 @@ local tbl =
 	},
 	[106] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "[Melee] Immediate Feint",
+				uuid = "b2a53349-efc7-b5c8-b2b9-5585bbd5d003",
+				version = 2,
+			},
+			inheritedObjectUUID = "5fbfc7f6-05b1-08d7-9da6-85952022588f",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
 		
 		{
 			data = 
@@ -21743,6 +22286,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "eefdd63f-783d-06c0-b3c4-8a1488cc33fe",
+				version = 2,
+			},
+			inheritedObjectUUID = "8ee438b6-24bc-a801-adaa-80c2fd8e254c",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -22403,6 +22960,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 678.6,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -23005,7 +23563,8 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							aType = "Lua",
+							actionLua = "local currentACR = gACRSelectedProfiles[TensorCore.mGetPlayer().job]\nif currentACR ~= nil and _G[\"ACR_\"..currentACR..\"_Burn\"] == false then\n_G[\"ACR_\"..currentACR..\"_Burn\"] = true end\nself.used = true",
 							conditions = 
 							{
 								
@@ -23014,8 +23573,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR3_Burn",
-							uuid = "bb5ea6ec-0f60-ad83-bb77-d64ba5b6174a",
+							endIfUsed = true,
+							gVar = "ACR_TensorRequiem3_AOE",
+							gVarValue = 2,
+							name = "Burn",
+							uuid = "ca709c6f-9289-8806-9167-fbe6723fde71",
 							version = 2.1,
 						},
 					},
@@ -23040,7 +23602,7 @@ local tbl =
 				timelineIndex = 108,
 				timerEndOffset = 100,
 				timerOffset = 2,
-				uuid = "c96a61ce-9aaf-5282-a2eb-be7b25876633",
+				uuid = "44d5b75e-666c-df0c-a2b0-b8bddd5b439e",
 				version = 2,
 			},
 			inheritedIndex = 19,
@@ -23598,6 +24160,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 704,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -25883,6 +26446,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 743.1,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -26215,6 +26779,34 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Melee] Immediate Feint",
+				uuid = "20098587-670f-6288-8698-1caa13671d73",
+				version = 2,
+			},
+			inheritedObjectUUID = "72333b6c-839c-3a14-85a7-6922a2c1d956",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "709bdca9-30f3-447d-88cb-d3e577a8862a",
+				version = 2,
+			},
+			inheritedObjectUUID = "43b9102b-a862-2575-ad7e-70bd3110aa88",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -26406,6 +26998,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				name = "[Ranged] rDPS Mit",
+				uuid = "f2959efb-dcb5-bd58-af60-e14a053fa926",
+				version = 2,
+			},
+			inheritedObjectUUID = "1dcc540e-9f4d-15cf-9008-55ca3301d015",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -27364,6 +27970,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 760,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -27691,6 +28298,34 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Immediate Feint",
+				uuid = "4dcf22f3-13e5-cc8f-9b15-47d94365602b",
+				version = 2,
+			},
+			inheritedObjectUUID = "c841f83e-bd84-0705-87f7-4452f013440b",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "[Melee] Random Feint",
+				uuid = "a2844807-22c7-dc8a-8990-cb911dd406b3",
+				version = 2,
+			},
+			inheritedObjectUUID = "89828259-8327-4dbe-a076-7e6e93177585",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 		
 		{
@@ -28845,6 +29480,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 776.9,
 				name = "Reprisal (-5s)",
 				timeRange = true,
@@ -29407,6 +30043,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 785.6,
 				name = "Reprisal (-14s)",
 				timeRange = true,
