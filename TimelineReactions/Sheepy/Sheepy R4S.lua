@@ -542,6 +542,27 @@ local tbl =
 							version = 2.1,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
+							version = 2.1,
+						},
+					},
 				},
 				conditions = 
 				{
@@ -1074,6 +1095,27 @@ local tbl =
 							version = 2.1,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
+							version = 2.1,
+						},
+					},
 				},
 				conditions = 
 				{
@@ -1333,6 +1375,27 @@ local tbl =
 							version = 2.1,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
+							version = 2.1,
+						},
+					},
 				},
 				conditions = 
 				{
@@ -1361,6 +1424,7 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 49.6,
 				name = "Instant Dash (0.2s)",
 				timeRange = true,
@@ -1560,6 +1624,27 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
 							version = 2.1,
 						},
 					},
@@ -1822,6 +1907,27 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "837684b3-edad-1ade-84a9-7ae18e11e698",
 							version = 2.1,
 						},
 					},
@@ -2134,6 +2240,27 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "85e8f78a-5101-a5c2-8588-62e10dbc787e",
 							version = 2.1,
 						},
 					},
@@ -3648,6 +3775,27 @@ local tbl =
 							version = 2.1,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
+							version = 2.1,
+						},
+					},
 				},
 				conditions = 
 				{
@@ -4764,6 +4912,27 @@ local tbl =
 							version = 2.1,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
+							version = 2.1,
+						},
+					},
 				},
 				conditions = 
 				{
@@ -5411,6 +5580,27 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
 							version = 2.1,
 						},
 					},
@@ -7098,6 +7288,27 @@ local tbl =
 							version = 2.1,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
+							version = 2.1,
+						},
+					},
 				},
 				conditions = 
 				{
@@ -7170,6 +7381,152 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+	},
+	[39] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuDRK3_Tankbar_OblationSelf",
+							name = "Oblation Self",
+							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
+							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 2,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							actionID = 3551,
+							actionLua = "SallyWAR.HotBarConfig.RawIntuition.enabled = false\nself.used = true",
+							gVar = "ACR_RikuWAR3_Tankbar_Bloodwhetting",
+							uuid = "f9fe294e-ab41-6a48-bf2c-12929954913e",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_HolySheltron",
+							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							actionID = 16161,
+							actionLua = "SallyGNB.HotBarConfig.HeartOfStone_OT.enabled = false\nself.used = true",
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"27d065ad-f664-2a37-81e6-afb5d796b1d7",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightSelf",
+							name = "TBN Self",
+							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 6,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"3e5b21eb-2b8c-c479-9e8a-fcee7e9c1c70",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
+							uuid = "cae92cd1-f35c-edea-8241-8f41908b7a25",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 6,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 25758,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							name = "HOC on CD",
+							uuid = "3e5b21eb-2b8c-c479-9e8a-fcee7e9c1c70",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 61,
+							actionID = 25754,
+							category = "Self",
+							conditionType = 4,
+							dequeueIfLuaFalse = true,
+							name = "Oblation Not ready",
+							uuid = "27d065ad-f664-2a37-81e6-afb5d796b1d7",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 232,
+				name = "Short Mitigation Self (-2.5s)",
+				timeRange = true,
+				timelineIndex = 39,
+				timerEndOffset = 3,
+				timerOffset = -4,
+				timerStartOffset = -2.5,
+				uuid = "f128bd42-634f-87de-8431-4edc2e3e9571",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 	},
 	[41] = 
@@ -11840,6 +12197,27 @@ local tbl =
 							version = 2.1,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
+							version = 2.1,
+						},
+					},
 				},
 				conditions = 
 				{
@@ -12684,6 +13062,27 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 34646,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
+									true,
+								},
+							},
+							gVar = "ACR_TensorViper3_CD",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
 							version = 2.1,
 						},
 					},
