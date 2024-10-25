@@ -6570,6 +6570,11 @@ local tbl =
 									"19dc2f1e-217a-f23f-863f-908270f70fd3",
 									true,
 								},
+								
+								{
+									"1c6e25b2-ffe1-33ea-affd-13f73b4dbfbf",
+									true,
+								},
 							},
 							gVar = "ACR_RikuDRK3_Hotbar_Provoke",
 							uuid = "dfd13f3c-4ea6-137e-b183-6f33964c2e0c",
@@ -6615,6 +6620,19 @@ local tbl =
 							jobValue = "DARKKNIGHT",
 							name = "DRK",
 							uuid = "19dc2f1e-217a-f23f-863f-908270f70fd3",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 7,
+							jobValue = "WARRIOR",
+							name = "Other Tank is WAR",
+							partyTargetType = "Other Tank",
+							uuid = "1c6e25b2-ffe1-33ea-affd-13f73b4dbfbf",
 							version = 2,
 						},
 					},
