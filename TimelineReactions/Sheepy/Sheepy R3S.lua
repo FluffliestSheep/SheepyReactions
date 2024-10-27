@@ -322,9 +322,9 @@ local tbl =
 					},
 				},
 				mechanicTime = 20.9,
-				name = "Invuln if MT (-2s)",
+				name = "Invuln if MT (-3s)",
 				timelineIndex = 3,
-				timerOffset = -2,
+				timerOffset = -3,
 				uuid = "b954e38d-ff48-cd69-bffe-389f48e05bf2",
 				version = 2,
 			},
@@ -3994,6 +3994,7 @@ local tbl =
 							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
