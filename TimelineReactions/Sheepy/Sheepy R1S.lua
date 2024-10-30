@@ -2768,14 +2768,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
 							name = "Oblation Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -2794,14 +2794,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashMouse",
 							name = "NF Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "f9fe294e-ab41-6a48-bf2c-12929954913e",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -2818,14 +2818,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
 							name = "Intervention Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -2841,14 +2841,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
 							name = "HoC Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -2872,14 +2872,14 @@ local tbl =
 								},
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
 							name = "TBN Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -2916,10 +2916,47 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 10,
+							inGroupTargetType = "Party",
+							name = "Marker Target",
+							partyTargetType = "Event Entity",
+							uuid = "8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									true,
+								},
+								
+								{
+									"8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+									true,
+								},
+							},
+							filterTargetType = "Healer",
+							name = "Healer Has Marker",
+							uuid = "676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+							version = 2,
+						},
+					},
 				},
 				eventType = 4,
 				mechanicTime = 178.3,
-				name = "Short Mitigation on Marked (-4s)",
+				name = "Short Mitigation on Marked Healer (-4s)",
 				throttleTime = 4000,
 				timeRange = true,
 				timelineIndex = 37,
@@ -3145,203 +3182,6 @@ local tbl =
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Lua",
-							actionLua = "self.used = true",
-							conditions = 
-							{
-								
-								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_CD",
-							uuid = "85aee42e-c867-672e-b7f2-a3798de5f561",
-							version = 2.1,
-						},
-						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
-							name = "Oblation Marked",
-							targetType = "Event Entity",
-							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							actionID = 3551,
-							actionLua = "SallyWAR.HotBarConfig.RawIntuition.enabled = false\nself.used = true",
-							conditions = 
-							{
-								
-								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashMouse",
-							name = "NF Marked",
-							targetType = "Event Entity",
-							uuid = "f9fe294e-ab41-6a48-bf2c-12929954913e",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-						inheritedIndex = 3,
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
-							name = "Intervention Marked",
-							targetType = "Event Entity",
-							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
-							name = "HoC Marked",
-							targetType = "Event Entity",
-							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							actionID = 16161,
-							actionLua = "SallyGNB.HotBarConfig.HeartOfStone_OT.enabled = false\nself.used = true",
-							atomicPriority = true,
-							conditions = 
-							{
-								
-								{
-									"2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
-									true,
-								},
-								
-								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
-									true,
-								},
-							},
-							fallthrough = true,
-							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
-							name = "TBN Marked",
-							targetType = "Event Entity",
-							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-						inheritedIndex = 5,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 25754,
-							category = "Self",
-							conditionType = 4,
-							name = "Oblation Not ready",
-							uuid = "2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgType = 2,
-							eventEntityID = 538,
-							eventMarkerID = 538,
-							name = "Marker",
-							uuid = "19c826de-0708-a6cf-a728-68f89c44e9a8",
-							version = 2,
-						},
-					},
-				},
-				eventType = 4,
-				mechanicTime = 189.5,
-				name = "Short Mitigation on Marked (-4s)",
-				throttleTime = 4000,
-				timeRange = true,
-				timelineIndex = 41,
-				timerOffset = -4,
-				timerStartOffset = -15,
-				uuid = "10dd563b-56b7-5b82-b6a0-b07362b012dc",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
 				name = "Elevate Autoface Solver",
 				uuid = "069d4e78-fdf6-eabe-8338-db2f3f089d0f",
 				version = 2,
@@ -3560,9 +3400,6 @@ local tbl =
 				version = 2,
 			},
 		},
-	},
-	[45] = 
-	{
 		
 		{
 			data = 
@@ -3598,14 +3435,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
 							name = "Oblation Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -3624,14 +3461,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashMouse",
 							name = "NF Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "f9fe294e-ab41-6a48-bf2c-12929954913e",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -3648,14 +3485,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
 							name = "Intervention Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -3671,14 +3508,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
 							name = "HoC Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -3702,14 +3539,14 @@ local tbl =
 								},
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
 							name = "TBN Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -3746,20 +3583,60 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 10,
+							inGroupTargetType = "Party",
+							name = "Marker Target",
+							partyTargetType = "Event Entity",
+							uuid = "8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									true,
+								},
+								
+								{
+									"8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+									true,
+								},
+							},
+							filterTargetType = "Healer",
+							name = "Healer Has Marker",
+							uuid = "676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+							version = 2,
+						},
+					},
 				},
 				eventType = 4,
-				mechanicTime = 200.7,
-				name = "Short Mitigation on Marked (-4s)",
+				mechanicTime = 189.5,
+				name = "Short Mitigation on Marked Healer (-4s)",
 				throttleTime = 4000,
 				timeRange = true,
-				timelineIndex = 45,
+				timelineIndex = 41,
 				timerOffset = -4,
 				timerStartOffset = -15,
-				uuid = "e71a2859-4b86-74f4-911e-a630e119f6b6",
+				uuid = "c8a95b0b-98cc-2235-830f-f575e399e0af",
 				version = 2,
 			},
 			inheritedIndex = 1,
 		},
+	},
+	[45] = 
+	{
 		
 		{
 			data = 
@@ -3982,9 +3859,6 @@ local tbl =
 				version = 2,
 			},
 		},
-	},
-	[49] = 
-	{
 		
 		{
 			data = 
@@ -4020,14 +3894,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
 							name = "Oblation Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -4046,14 +3920,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashMouse",
 							name = "NF Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "f9fe294e-ab41-6a48-bf2c-12929954913e",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -4070,14 +3944,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
 							name = "Intervention Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -4093,14 +3967,14 @@ local tbl =
 							{
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
 							name = "HoC Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -4124,14 +3998,14 @@ local tbl =
 								},
 								
 								{
-									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
 									true,
 								},
 							},
 							fallthrough = true,
 							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
 							name = "TBN Marked",
-							targetType = "Event Entity",
+							targetType = "Detection Target",
 							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -4168,20 +4042,60 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 10,
+							inGroupTargetType = "Party",
+							name = "Marker Target",
+							partyTargetType = "Event Entity",
+							uuid = "8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									true,
+								},
+								
+								{
+									"8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+									true,
+								},
+							},
+							filterTargetType = "Healer",
+							name = "Healer Has Marker",
+							uuid = "676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+							version = 2,
+						},
+					},
 				},
 				eventType = 4,
-				mechanicTime = 211.9,
-				name = "Short Mitigation on Marked (-4s)",
+				mechanicTime = 200.7,
+				name = "Short Mitigation on Marked Healer (-4s)",
 				throttleTime = 4000,
 				timeRange = true,
-				timelineIndex = 49,
+				timelineIndex = 45,
 				timerOffset = -4,
 				timerStartOffset = -15,
-				uuid = "3857960c-c880-8948-8a43-5711684f883b",
+				uuid = "1c4b9914-af05-2631-add2-6d1237e0acee",
 				version = 2,
 			},
 			inheritedIndex = 1,
 		},
+	},
+	[49] = 
+	{
 		
 		{
 			data = 
@@ -4389,6 +4303,240 @@ local tbl =
 				uuid = "44016217-56d3-d6dc-8ba9-4ee31b4e9754",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionLua = "self.used = true",
+							conditions = 
+							{
+								
+								{
+									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							uuid = "85aee42e-c867-672e-b7f2-a3798de5f561",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+									true,
+								},
+							},
+							fallthrough = true,
+							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
+							name = "Oblation Marked",
+							targetType = "Detection Target",
+							uuid = "4a567574-9c22-6e3e-a537-ad48ff2201a3",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							actionID = 3551,
+							actionLua = "SallyWAR.HotBarConfig.RawIntuition.enabled = false\nself.used = true",
+							conditions = 
+							{
+								
+								{
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+									true,
+								},
+							},
+							fallthrough = true,
+							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashMouse",
+							name = "NF Marked",
+							targetType = "Detection Target",
+							uuid = "f9fe294e-ab41-6a48-bf2c-12929954913e",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+									true,
+								},
+							},
+							fallthrough = true,
+							gVar = "ACR_RikuPLD3_Tankbar_InterventionMouse",
+							name = "Intervention Marked",
+							targetType = "Detection Target",
+							uuid = "62269dcf-6ae9-11ee-891c-1ae3b8a2f5fc",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+									true,
+								},
+							},
+							fallthrough = true,
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMouse",
+							name = "HoC Marked",
+							targetType = "Detection Target",
+							uuid = "83ab389e-d8de-5275-b010-0b54fa958a71",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							actionID = 16161,
+							actionLua = "SallyGNB.HotBarConfig.HeartOfStone_OT.enabled = false\nself.used = true",
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
+									true,
+								},
+								
+								{
+									"676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+									true,
+								},
+							},
+							fallthrough = true,
+							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightMouse",
+							name = "TBN Marked",
+							targetType = "Detection Target",
+							uuid = "8596bf8f-802b-b15a-8abd-1499834d9011",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 5,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 25754,
+							category = "Self",
+							conditionType = 4,
+							name = "Oblation Not ready",
+							uuid = "2dd8d201-40f4-5771-b35c-2a3170b0f2b6",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgType = 2,
+							eventEntityID = 538,
+							eventMarkerID = 538,
+							name = "Marker",
+							uuid = "19c826de-0708-a6cf-a728-68f89c44e9a8",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 10,
+							inGroupTargetType = "Party",
+							name = "Marker Target",
+							partyTargetType = "Event Entity",
+							uuid = "8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"19c826de-0708-a6cf-a728-68f89c44e9a8",
+									true,
+								},
+								
+								{
+									"8e699c00-f630-666e-a4bf-5378ed1ecfc1",
+									true,
+								},
+							},
+							filterTargetType = "Healer",
+							name = "Healer Has Marker",
+							uuid = "676461dd-a99c-7ab9-a3d2-5fdf8e3fa450",
+							version = 2,
+						},
+					},
+				},
+				eventType = 4,
+				mechanicTime = 211.9,
+				name = "Short Mitigation on Marked Healer (-4s)",
+				throttleTime = 4000,
+				timeRange = true,
+				timelineIndex = 49,
+				timerOffset = -4,
+				timerStartOffset = -15,
+				uuid = "d1120916-9f30-5e7d-b2a2-eca37fa6d7c5",
+				version = 2,
+			},
+			inheritedIndex = 1,
 		},
 	},
 	[52] = 
