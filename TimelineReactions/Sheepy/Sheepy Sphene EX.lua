@@ -827,6 +827,38 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							endIfUsed = true,
+							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
+							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 73.8,
+				name = "SAM Mitigation (-2s)",
+				timeRange = true,
+				timelineIndex = 8,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2,
+				uuid = "165c9814-93b4-791c-b992-6fe46331368d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							conditions = 
 							{
 								
@@ -992,38 +1024,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							endIfUsed = true,
-							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
-							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 73.8,
-				name = "SAM Mitigation (-2s)",
-				timeRange = true,
-				timelineIndex = 8,
-				timerEndOffset = -0.5,
-				timerStartOffset = -2,
-				uuid = "165c9814-93b4-791c-b992-6fe46331368d",
-				version = 2,
-			},
 		},
 		
 		{
@@ -1350,10 +1350,9 @@ local tbl =
 				},
 				mechanicTime = 73.8,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 8,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "d9e74074-f332-23e0-8cd3-6d5bb498ddd0",
 				version = 2,
@@ -2590,9 +2589,8 @@ local tbl =
 				},
 				mechanicTime = 113,
 				name = "Short Mitigation Self MT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 13,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "96c980c3-85b5-67e3-9a74-441146cba668",
 				version = 2,
@@ -3059,9 +3057,8 @@ local tbl =
 				},
 				mechanicTime = 116.1,
 				name = "Short Mitigation Self OT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 14,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "cf011f10-f194-7381-8d75-d512397eb139",
 				version = 2,
@@ -4405,7 +4402,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 18,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "7f7d2d96-47d6-69c2-8fb1-5afb3c80346a",
 				version = 2,
@@ -4601,10 +4598,9 @@ local tbl =
 				},
 				mechanicTime = 187.4,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 22,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "0105fc7c-ea43-b25d-b65e-4a5bf9842794",
 				version = 2,
@@ -4800,6 +4796,37 @@ local tbl =
 						{
 							aType = "ACR",
 							endIfUsed = true,
+							gVar = "ACR_RikuWAR3_Hotbar_Sprint",
+							uuid = "d6137efc-b2bf-61eb-879c-d70188c2bc4f",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.4,
+				name = "Sprint (-9s)",
+				timelineIndex = 22,
+				timerOffset = -9,
+				uuid = "31c7ef42-78e9-9a4c-8eaf-9dd6bf54727d",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							endIfUsed = true,
 							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
 							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
 							variableTogglesType = 2,
@@ -4819,37 +4846,6 @@ local tbl =
 				uuid = "a04912eb-f973-9e34-a3dd-d4f9fd397770",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							endIfUsed = true,
-							gVar = "ACR_RikuWAR3_Hotbar_Sprint",
-							uuid = "d6137efc-b2bf-61eb-879c-d70188c2bc4f",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 187.4,
-				name = "Sprint (-9s)",
-				timelineIndex = 22,
-				timerOffset = -9,
-				uuid = "31c7ef42-78e9-9a4c-8eaf-9dd6bf54727d",
-				version = 2,
-			},
-			inheritedIndex = 2,
 		},
 	},
 	[25] = 
@@ -5224,10 +5220,9 @@ local tbl =
 				},
 				mechanicTime = 201.4,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 26,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "cf94da40-6ee5-2fb4-b13e-25567eaeef49",
 				version = 2,
@@ -6779,9 +6774,8 @@ local tbl =
 				},
 				mechanicTime = 254,
 				name = "Short Mitigation Self MT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 35,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "8f89d95f-c20a-883a-9c3d-891ff9c74c7c",
 				version = 2,
@@ -7248,9 +7242,8 @@ local tbl =
 				},
 				mechanicTime = 257.1,
 				name = "Short Mitigation Self OT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 36,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "56d94954-b23e-d7ac-89bd-f46f06713934",
 				version = 2,
@@ -7971,256 +7964,6 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 16461,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "8cbc8a6d-4cc1-67ec-be46-c9fa7e47e9b6",
-							version = 2.1,
-						},
-						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							actionID = 7386,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "52ca11e9-4866-2bb3-b3d5-37599860356f",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 36926,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "5f0f2206-3257-cc0e-bc21-562466245de7",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 36934,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "e0cd3f06-24f4-119f-8318-f86695273f2a",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 36951,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "9d5a350b-eccb-388b-8410-617e0f6bdfaa",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 25762,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuMNK3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "75473303-939c-0d7d-8071-4eb5c6de886e",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 7492,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_TensorWeeb3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "177a02ab-ae8f-6f17-abeb-446d1887b431",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 2262,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuNIN3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							actionID = 24401,
-							allowInterrupt = true,
-							conditions = 
-							{
-								
-								{
-									"aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
-									true,
-								},
-							},
-							gVar = "ACR_TensorReaper3_Hotbar_HellsIngressTarget",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 34646,
-							allowInterrupt = true,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_TensorViper3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "cc766014-f01d-7fe9-8788-46d8298ec4ae",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							conditionType = 6,
-							dequeueIfLuaFalse = true,
-							inRangeValue = 3,
-							name = "> 3 yalms",
-							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 6,
-							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
-							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
-							version = 2,
-						},
-					},
-				},
-				loop = true,
-				mechanicTime = 276.4,
-				name = "Instant Dash (0s)",
-				timeRange = true,
-				timelineIndex = 40,
-				timerEndOffset = 4,
-				uuid = "92bc492f-2b88-59df-82e5-9535a974c7f5",
-				version = 2,
-			},
-			inheritedIndex = 9,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
@@ -8397,10 +8140,9 @@ local tbl =
 				},
 				mechanicTime = 276.4,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 40,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "bd126c04-3ae5-34d8-8e01-e9e4ebb2481a",
 				version = 2,
@@ -8596,10 +8338,9 @@ local tbl =
 				},
 				mechanicTime = 302.4,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 42,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "034049fe-1110-d6e0-bbd3-42c5e9d3484d",
 				version = 2,
@@ -10389,10 +10130,9 @@ local tbl =
 				},
 				mechanicTime = 330.7,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 45,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "af013631-b902-e136-ac86-acf98b2495cc",
 				version = 2,
@@ -10480,6 +10220,38 @@ local tbl =
 						{
 							aType = "ACR",
 							endIfUsed = true,
+							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
+							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 385.1,
+				name = "SAM Mitigation (-2s)",
+				timeRange = true,
+				timelineIndex = 54,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2,
+				uuid = "1c65e843-25f1-5c5d-a680-8ee6f95e6cab",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							endIfUsed = true,
 							gVar = "ACR_TensorReaper3_Hotbar_ArcaneCrest",
 							uuid = "de734468-3e00-6067-87dd-ad55be77b1ba",
 							variableTogglesType = 2,
@@ -10501,38 +10273,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							endIfUsed = true,
-							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
-							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 385.1,
-				name = "SAM Mitigation (-2s)",
-				timeRange = true,
-				timelineIndex = 54,
-				timerEndOffset = -0.5,
-				timerStartOffset = -2,
-				uuid = "1c65e843-25f1-5c5d-a680-8ee6f95e6cab",
-				version = 2,
-			},
 		},
 		
 		{
@@ -10904,9 +10644,8 @@ local tbl =
 				},
 				mechanicTime = 392.2,
 				name = "Short Mitigation Self (-6.5s)",
-				timeRange = true,
 				timelineIndex = 57,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "ac7b04cc-a51e-cff3-affb-3692b62442f1",
 				version = 2,
@@ -12650,9 +12389,8 @@ local tbl =
 				},
 				mechanicTime = 427.5,
 				name = "Short Mitigation Self MT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 66,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "1cdff04a-5504-1fc5-b4c6-66d3c78c8002",
 				version = 2,
@@ -13119,9 +12857,8 @@ local tbl =
 				},
 				mechanicTime = 430.6,
 				name = "Short Mitigation Self OT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 67,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "0f2c9b17-26b8-75af-86f3-eafaae5d03e7",
 				version = 2,
@@ -13778,10 +13515,9 @@ local tbl =
 				},
 				mechanicTime = 443.6,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 68,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "9b2e9d0a-2a79-85a2-ba62-a691fafa1b45",
 				version = 2,
@@ -14367,10 +14103,9 @@ local tbl =
 				},
 				mechanicTime = 468.8,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 71,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "024912e9-da82-d7a2-8d06-e241e6aa112e",
 				version = 2,
@@ -15539,10 +15274,9 @@ local tbl =
 				},
 				mechanicTime = 486.9,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 72,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "f235da66-2d48-3490-b2de-b2edfac020a6",
 				version = 2,
@@ -16353,10 +16087,9 @@ local tbl =
 				},
 				mechanicTime = 1044.9,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 77,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "dfe27c7e-21bd-b575-967c-406856a8b89a",
 				version = 2,
@@ -17167,10 +16900,9 @@ local tbl =
 				},
 				mechanicTime = 1064,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 79,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "23e8f72b-4d9d-52c2-95bf-64548f7f2c47",
 				version = 2,
@@ -18156,9 +17888,8 @@ local tbl =
 				},
 				mechanicTime = 1095.4,
 				name = "Short Mitigation Self MT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 83,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "c1d76b8f-90ed-20cf-a353-cd9db13e2ecd",
 				version = 2,
@@ -18625,9 +18356,8 @@ local tbl =
 				},
 				mechanicTime = 1098.2,
 				name = "Short Mitigation Self OT (-6.5s)",
-				timeRange = true,
 				timelineIndex = 84,
-				timerOffset = -4,
+				timerOffset = -6.5,
 				timerStartOffset = -6.5,
 				uuid = "82ea1ffb-7957-a279-9f89-7e7ebcd30772",
 				version = 2,
@@ -19461,10 +19191,9 @@ local tbl =
 				},
 				mechanicTime = 1107.1,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 86,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "2dcc1a4a-a806-8d47-a026-d032d0c1cbd2",
 				version = 2,
@@ -20556,10 +20285,9 @@ local tbl =
 				},
 				mechanicTime = 1125.1,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 88,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "741718cd-7d34-b3c7-a044-b0669b55c9f5",
 				version = 2,
@@ -21596,10 +21324,9 @@ local tbl =
 				},
 				mechanicTime = 1152.5,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 90,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "aefbb0e6-719a-5c01-9cbe-5816cdc2a57d",
 				version = 2,
@@ -22410,10 +22137,9 @@ local tbl =
 				},
 				mechanicTime = 1171.6,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 92,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "a305719e-2b5f-aee0-9ccb-7c0089aaba73",
 				version = 2,
@@ -23182,10 +22908,9 @@ local tbl =
 				},
 				mechanicTime = 1179.6,
 				name = "Short Mitigation Self if MT(-6s)",
-				timeRange = true,
 				timelineIndex = 93,
 				timerEndOffset = -1,
-				timerOffset = -4,
+				timerOffset = -6,
 				timerStartOffset = -6,
 				uuid = "76b45e83-0716-78af-80bf-eeca6b36270a",
 				version = 2,
