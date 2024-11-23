@@ -1372,7 +1372,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							actionID = 3,
 							endIfUsed = true,
 							gVar = "ACR_RikuWAR3_Hotbar_Sprint",
 							uuid = "d6137efc-b2bf-61eb-879c-d70188c2bc4f",
@@ -1391,7 +1391,7 @@ local tbl =
 				uuid = "d0647064-d191-ec30-bb91-3bab80782038",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 4,
 		},
 	},
 	[12] = 
@@ -4794,7 +4794,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							actionID = 3,
 							endIfUsed = true,
 							gVar = "ACR_RikuWAR3_Hotbar_Sprint",
 							uuid = "d6137efc-b2bf-61eb-879c-d70188c2bc4f",
@@ -7756,7 +7756,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							actionID = 3,
 							endIfUsed = true,
 							gVar = "ACR_RikuWAR3_Hotbar_Sprint",
 							uuid = "d6137efc-b2bf-61eb-879c-d70188c2bc4f",
@@ -7775,7 +7775,7 @@ local tbl =
 				uuid = "a3f0ae16-ac84-ca6c-a265-48b6269f21f7",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -10184,7 +10184,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							actionID = 3,
 							endIfUsed = true,
 							gVar = "ACR_RikuWAR3_Hotbar_Sprint",
 							uuid = "d6137efc-b2bf-61eb-879c-d70188c2bc4f",
@@ -10203,7 +10203,7 @@ local tbl =
 				uuid = "6792ce04-d339-047a-b10b-bd720d37967f",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 4,
 		},
 	},
 	[54] = 
@@ -17625,7 +17625,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
+							actionID = 3,
 							endIfUsed = true,
 							gVar = "ACR_RikuWAR3_Hotbar_Sprint",
 							uuid = "d6137efc-b2bf-61eb-879c-d70188c2bc4f",
@@ -17644,7 +17644,7 @@ local tbl =
 				uuid = "48220671-d278-9625-bd67-fb745b99d307",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 4,
 		},
 	},
 	[83] = 
