@@ -505,6 +505,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -514,10 +515,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -587,6 +589,19 @@ local tbl =
 							inRangeValue = 15,
 							name = "> 15 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 36951,
+							category = "Self",
+							conditionType = 4,
+							name = "Glide on CD",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
 							version = 2,
 						},
 					},
@@ -1058,6 +1073,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -1067,10 +1083,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -1113,30 +1130,6 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-								
-								{
-									"5ac6341b-8eaa-5f47-9bf4-882f23a59977",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_Hotbar_ElusiveJumpTarget",
-							uuid = "74d59e5c-1165-54c1-888f-011572e51218",
-							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -1375,6 +1368,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -1384,10 +1378,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -1433,30 +1428,6 @@ local tbl =
 							version = 2.1,
 						},
 					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-								
-								{
-									"eddfd406-ea60-852a-980e-da41ce3c9e52",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_Hotbar_ElusiveJumpTarget",
-							uuid = "64330a85-f03f-ed3b-90e4-4477b4282eb2",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
 				},
 				conditions = 
 				{
@@ -1493,7 +1464,7 @@ local tbl =
 							category = "Self",
 							conditionType = 4,
 							name = "Glide on CD",
-							uuid = "eddfd406-ea60-852a-980e-da41ce3c9e52",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
 							version = 2,
 						},
 					},
@@ -1664,6 +1635,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -1673,10 +1645,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -1722,30 +1695,6 @@ local tbl =
 							version = 2.1,
 						},
 					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-								
-								{
-									"49bd9c17-40fb-a13b-8159-ebc6691190b4",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_Hotbar_ElusiveJumpTarget",
-							uuid = "2bbdfc94-feba-1a81-b69a-4a435408803f",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
 				},
 				conditions = 
 				{
@@ -1782,7 +1731,7 @@ local tbl =
 							category = "Self",
 							conditionType = 4,
 							name = "Glide on CD",
-							uuid = "49bd9c17-40fb-a13b-8159-ebc6691190b4",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
 							version = 2,
 						},
 					},
@@ -1984,6 +1933,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -1993,10 +1943,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -2039,30 +1990,6 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "837684b3-edad-1ade-84a9-7ae18e11e698",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-								
-								{
-									"cc13beae-b68d-419c-95ef-d50c39546baf",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_Hotbar_ElusiveJumpTarget",
-							uuid = "fea68ed7-554b-bf02-8a7c-3b89a276c623",
-							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -2535,6 +2462,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -2544,10 +2472,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -2590,30 +2519,6 @@ local tbl =
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "85e8f78a-5101-a5c2-8588-62e10dbc787e",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-								
-								{
-									"24dba3cc-87d7-37d2-bcdb-abc891daaf55",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_Hotbar_ElusiveJumpTarget",
-							uuid = "914b7575-7874-26a2-8769-739143f091b6",
-							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -3386,7 +3291,7 @@ local tbl =
 				timelineIndex = 14,
 				timerEndOffset = -1,
 				timerOffset = -3.5,
-				timerStartOffset = -14,
+				timerStartOffset = -13.5,
 				uuid = "5df80ef8-451d-98d9-8a3b-c787bddd86d7",
 				version = 2,
 			},
@@ -3923,6 +3828,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -3932,10 +3838,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -4008,6 +3915,19 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 36951,
+							category = "Self",
+							conditionType = 4,
+							name = "Glide on CD",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
+							version = 2,
+						},
+					},
 				},
 				loop = true,
 				mechanicTime = 134.4,
@@ -4020,6 +3940,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 134.4,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 21,
+				timerOffset = -4,
+				uuid = "23c016ee-2d9f-c9b1-bc19-bd0062202229",
+				version = 2,
+			},
 		},
 	},
 	[23] = 
@@ -5685,6 +5634,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -5694,10 +5644,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -5767,6 +5718,19 @@ local tbl =
 							inRangeValue = 15,
 							name = "> 15 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 36951,
+							category = "Self",
+							conditionType = 4,
+							name = "Glide on CD",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
 							version = 2,
 						},
 					},
@@ -6046,6 +6010,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 189.2,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 33,
+				timerOffset = -4,
+				uuid = "b0cd6837-9f23-d48f-98d7-90bb879841e7",
+				version = 2,
+			},
 		},
 	},
 	[35] = 
@@ -6537,6 +6530,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -6546,10 +6540,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -6619,6 +6614,19 @@ local tbl =
 							inRangeValue = 15,
 							name = "> 15 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 36951,
+							category = "Self",
+							conditionType = 4,
+							name = "Glide on CD",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
 							version = 2,
 						},
 					},
@@ -7485,6 +7493,35 @@ local tbl =
 			},
 			inheritedIndex = 12,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 206.4,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 36,
+				timerOffset = -4,
+				uuid = "671a0324-9202-f219-91ed-259e46e6cce8",
+				version = 2,
+			},
+		},
 	},
 	[37] = 
 	{
@@ -7852,6 +7889,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -7861,10 +7899,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -7934,6 +7973,19 @@ local tbl =
 							inRangeValue = 15,
 							name = "> 15 Yalms",
 							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 36951,
+							category = "Self",
+							conditionType = 4,
+							name = "Glide on CD",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
 							version = 2,
 						},
 					},
@@ -12988,6 +13040,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -12997,10 +13050,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -13073,6 +13127,19 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 36951,
+							category = "Self",
+							conditionType = 4,
+							name = "Glide on CD",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
+							version = 2,
+						},
+					},
 				},
 				loop = true,
 				mechanicTime = 335.9,
@@ -13114,6 +13181,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 19,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 335.9,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 59,
+				timerOffset = -4,
+				uuid = "7caacb9c-f46c-59b3-8993-7b7ada7f35db",
+				version = 2,
+			},
 		},
 	},
 	[68] = 
@@ -13856,6 +13952,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -13865,10 +13962,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -13941,6 +14039,19 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 2,
+							actionID = 36951,
+							category = "Self",
+							conditionType = 4,
+							name = "Glide on CD",
+							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
+							version = 2,
+						},
+					},
 				},
 				loop = true,
 				mechanicTime = 361.9,
@@ -13953,6 +14064,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 361.9,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 68,
+				timerOffset = -4,
+				uuid = "8a91f2c6-e310-e444-af63-cd9250bf2c99",
+				version = 2,
+			},
 		},
 	},
 	[73] = 
@@ -14340,6 +14480,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 383.9,
 				name = "Feint (-14s)",
 				timeRange = true,
@@ -14470,6 +14611,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 383.9,
 				name = "Ranged Mitigation (15s)",
 				timeRange = true,
@@ -14877,7 +15019,7 @@ local tbl =
 				mechanicTime = 408.1,
 				name = "LB3",
 				timelineIndex = 77,
-				timerOffset = -0.5,
+				timerOffset = -1.5,
 				uuid = "50bdad55-a363-14eb-96d6-5aa4c9e1280d",
 				version = 2,
 			},
@@ -15613,6 +15755,89 @@ local tbl =
 			},
 			inheritedIndex = 6,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7549,
+							conditions = 
+							{
+								
+								{
+									"747992b4-58b3-37d3-a414-3979ef135bca",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRG3_CD",
+							targetType = "Current Target",
+							uuid = "9825db34-c727-2c99-bf72-e13b13be7d59",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1195,
+							dequeueIfLuaFalse = true,
+							name = "Missing Feint Buff",
+							uuid = "747992b4-58b3-37d3-a414-3979ef135bca",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 408.1,
+				name = "Feint (-2s)",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 3,
+				timerOffset = -3.5,
+				timerStartOffset = -2,
+				uuid = "fab2bba6-6005-c02b-a509-dc5dfcddbf56",
+				version = 2,
+			},
+			inheritedIndex = 12,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 408.1,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 77,
+				timerOffset = -4,
+				uuid = "58b56ee7-beae-bf4d-8a49-5de141ec799a",
+				version = 2,
+			},
+		},
 	},
 	[78] = 
 	{
@@ -16187,6 +16412,136 @@ local tbl =
 				uuid = "616b74da-d1ae-1ec0-ae66-6f2d2087fa0d",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRequiem3_Hotbar_Troubadour",
+							uuid = "87a5112d-01a7-c35e-8dfe-1d1215d36034",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_TensorMagnum3_Hotbar_Tactician",
+							uuid = "c4cbfd80-443d-8291-84e2-a54d12182448",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDNC3_Hotbar_ShieldSamba",
+							uuid = "eeff76af-97b3-ed1e-a3c9-5c144127b3ca",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 7560,
+							conditions = 
+							{
+								
+								{
+									"ea0a0868-9d95-ed28-844b-ab2da254f3cb",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRuin3_Hotbar_Addle",
+							targetType = "Current Target",
+							uuid = "0c6af07f-234e-1977-9bd8-26b52dda0d9f",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								1934,
+								1951,
+								1826,
+							},
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							name = "Missing Ranged Buffs",
+							uuid = "0c9ef3a3-02c4-6af9-ba5d-231b188b6137",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1203,
+							dequeueIfLuaFalse = true,
+							name = "Missing Addle Debuff",
+							uuid = "ea0a0868-9d95-ed28-844b-ab2da254f3cb",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 430.6,
+				name = "Ranged Mitigation (-14s)",
+				timeRange = true,
+				timelineIndex = 81,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -14,
+				uuid = "d6b0d780-2ee0-232b-9a99-1e86474ddba8",
+				version = 2,
+			},
+			inheritedIndex = 13,
 		},
 	},
 	[84] = 
@@ -18584,6 +18939,109 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 500.9,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 89,
+				timerOffset = -4,
+				uuid = "4ac096e6-fa7c-0c3b-ac78-678146fbf0ac",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							actionID = 18909,
+							actionLua = "SallyDRK.HotBarConfig.DarkMissionary.enabled = false\nself.used = true",
+							atomicPriority = true,
+							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
+							uuid = "c5a0d7e4-0334-f896-83f4-a5ce022a6795",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"cc5f1e05-c126-4582-aa2d-61121432224c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "cd396155-1d6a-5547-8539-cc148c3a28a0",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							buffIDList = 
+							{
+								1894,
+								1457,
+								1839,
+								1362,
+							},
+							category = "Party",
+							dequeueIfLuaFalse = true,
+							partyTargetType = "Healer",
+							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				mechanicTime = 500.9,
+				name = "Raid Wide GNB/DRK (-14s)",
+				timelineIndex = 89,
+				timerEndOffset = -1,
+				timerOffset = -14,
+				timerStartOffset = -14,
+				uuid = "109cd993-90cf-2688-8205-a3f36248e718",
+				version = 2,
+			},
+			inheritedIndex = 15,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							conditions = 
 							{
 								
@@ -18723,80 +19181,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 16,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							actionID = 18909,
-							actionLua = "SallyDRK.HotBarConfig.DarkMissionary.enabled = false\nself.used = true",
-							atomicPriority = true,
-							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
-							uuid = "c5a0d7e4-0334-f896-83f4-a5ce022a6795",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"cc5f1e05-c126-4582-aa2d-61121432224c",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
-							uuid = "cd396155-1d6a-5547-8539-cc148c3a28a0",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 5,
-							buffIDList = 
-							{
-								1894,
-								1457,
-								1839,
-								1362,
-							},
-							category = "Party",
-							dequeueIfLuaFalse = true,
-							partyTargetType = "Healer",
-							uuid = "cc5f1e05-c126-4582-aa2d-61121432224c",
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				mechanicTime = 500.9,
-				name = "Raid Wide GNB/DRK (-14s)",
-				timelineIndex = 89,
-				timerEndOffset = -1,
-				timerOffset = -14,
-				timerStartOffset = -14,
-				uuid = "109cd993-90cf-2688-8205-a3f36248e718",
-				version = 2,
-			},
-			inheritedIndex = 15,
 		},
 	},
 	[94] = 
@@ -20110,6 +20494,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 551.5,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 96,
+				timerOffset = -4,
+				uuid = "ada60048-3e34-989b-af5f-00b67fdfcf10",
+				version = 2,
+			},
 		},
 	},
 	[97] = 
@@ -24293,6 +24706,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 16,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 678.6,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 106,
+				timerOffset = -4,
+				uuid = "a68a4674-1245-ec73-880d-2f0d5efb3e02",
+				version = 2,
+			},
 		},
 	},
 	[108] = 
@@ -29693,6 +30135,35 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 768.8,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 117,
+				timerOffset = -4,
+				uuid = "d56ed1c4-47e2-ec2e-b1ad-cf322b2faac5",
+				version = 2,
+			},
+		},
 	},
 	[118] = 
 	{
@@ -31677,6 +32148,35 @@ local tbl =
 				timerEndOffset = 10,
 				timerStartOffset = 0.5,
 				uuid = "a4f3a3aa-1618-2db4-8614-1ebdf725a0f5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 785.6,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 119,
+				timerOffset = -4,
+				uuid = "584de18e-b1f5-cca2-895b-d65c2761d093",
 				version = 2,
 			},
 		},
