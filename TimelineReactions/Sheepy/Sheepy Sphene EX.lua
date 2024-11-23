@@ -827,38 +827,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							endIfUsed = true,
-							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
-							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 73.8,
-				name = "SAM Mitigation (-2s)",
-				timeRange = true,
-				timelineIndex = 8,
-				timerEndOffset = -0.5,
-				timerStartOffset = -2,
-				uuid = "165c9814-93b4-791c-b992-6fe46331368d",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							conditions = 
 							{
 								
@@ -1024,6 +992,38 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							endIfUsed = true,
+							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
+							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 73.8,
+				name = "SAM Mitigation (-2s)",
+				timeRange = true,
+				timelineIndex = 8,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2,
+				uuid = "165c9814-93b4-791c-b992-6fe46331368d",
+				version = 2,
+			},
 		},
 		
 		{
@@ -10220,38 +10220,6 @@ local tbl =
 						{
 							aType = "ACR",
 							endIfUsed = true,
-							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
-							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 385.1,
-				name = "SAM Mitigation (-2s)",
-				timeRange = true,
-				timelineIndex = 54,
-				timerEndOffset = -0.5,
-				timerStartOffset = -2,
-				uuid = "1c65e843-25f1-5c5d-a680-8ee6f95e6cab",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							endIfUsed = true,
 							gVar = "ACR_TensorReaper3_Hotbar_ArcaneCrest",
 							uuid = "de734468-3e00-6067-87dd-ad55be77b1ba",
 							variableTogglesType = 2,
@@ -10273,6 +10241,38 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							endIfUsed = true,
+							gVar = "ACR_TensorWeeb3_Hotbar_Tengetsu",
+							uuid = "9a726ddb-dc2e-b038-8987-d3681e6c8e73",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 385.1,
+				name = "SAM Mitigation (-2s)",
+				timeRange = true,
+				timelineIndex = 54,
+				timerEndOffset = -0.5,
+				timerStartOffset = -2,
+				uuid = "1c65e843-25f1-5c5d-a680-8ee6f95e6cab",
+				version = 2,
+			},
 		},
 		
 		{
@@ -11088,9 +11088,9 @@ local tbl =
 				{
 				},
 				mechanicTime = 406.4,
-				name = "Invuln (-9s)",
+				name = "Invuln (-8.5s)",
 				timelineIndex = 63,
-				timerOffset = -9,
+				timerOffset = -8.5,
 				uuid = "95a1ac07-6ff1-e4af-b179-aed8992a3e45",
 				version = 2,
 			},
