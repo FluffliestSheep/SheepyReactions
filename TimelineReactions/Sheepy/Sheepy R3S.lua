@@ -2129,6 +2129,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -2138,10 +2139,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -3962,6 +3964,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -3971,10 +3974,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -5123,6 +5127,12 @@ local tbl =
 						data = 
 						{
 							channelCheckSpellID = 37857,
+							channelCheckSpellIDList = 
+							{
+								37855,
+								37857,
+							},
+							channelCheckType = 2,
 							conditionType = 7,
 							uuid = "166a4c70-c8c9-2456-bb44-45f73799ee4f",
 							version = 2,
@@ -5288,6 +5298,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -5297,10 +5308,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -5344,7 +5356,7 @@ local tbl =
 							gVar = "ACR_TensorViper3_CD",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
-							uuid = "cc766014-f01d-7fe9-8788-46d8298ec4ae",
+							uuid = "4f978ba4-c001-6851-9d97-193eda62a89b",
 							version = 2.1,
 						},
 					},
@@ -11029,6 +11041,12 @@ local tbl =
 						data = 
 						{
 							channelCheckSpellID = 37857,
+							channelCheckSpellIDList = 
+							{
+								37855,
+								37857,
+							},
+							channelCheckType = 2,
 							conditionType = 7,
 							uuid = "166a4c70-c8c9-2456-bb44-45f73799ee4f",
 							version = 2,
@@ -11194,6 +11212,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -11203,10 +11222,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -11250,7 +11270,7 @@ local tbl =
 							gVar = "ACR_TensorViper3_CD",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
-							uuid = "cca21274-c681-7117-a0d6-1fcc45b13c75",
+							uuid = "4f978ba4-c001-6851-9d97-193eda62a89b",
 							version = 2.1,
 						},
 					},
@@ -13374,9 +13394,9 @@ local tbl =
 					},
 				},
 				mechanicTime = 353.7,
-				name = "Invuln if MT WAR (-1.5s)",
+				name = "Invuln if MT WAR (-1s)",
 				timelineIndex = 56,
-				timerOffset = -1.5,
+				timerOffset = -1,
 				uuid = "63fc9cc0-d956-ade4-beff-d5e6371b53fd",
 				version = 2,
 			},
@@ -14840,6 +14860,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -14849,10 +14870,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -14930,7 +14952,7 @@ local tbl =
 				},
 				loop = true,
 				mechanicTime = 413.7,
-				name = "Instant Dash Middle (0s)",
+				name = "Instant Dash Middle (-8s)",
 				timeRange = true,
 				timelineIndex = 61,
 				timerEndOffset = 2,
@@ -15783,6 +15805,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Reset Fire",
+				uuid = "e2fd60e7-e264-6df0-9585-cba8c07835ef",
+				version = 2,
+			},
+			inheritedIndex = 4,
+			inheritedObjectUUID = "5dcf6549-f648-7cd6-abe9-86677a6e905e",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -16347,6 +16383,7 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
 							actionID = 2262,
 							conditions = 
 							{
@@ -16356,10 +16393,11 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuNIN3_CD",
+							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
 							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -16403,7 +16441,7 @@ local tbl =
 							gVar = "ACR_TensorViper3_CD",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
-							uuid = "506c4ca8-c74e-1877-84ce-3393b4b8ac25",
+							uuid = "4f978ba4-c001-6851-9d97-193eda62a89b",
 							version = 2.1,
 						},
 					},
