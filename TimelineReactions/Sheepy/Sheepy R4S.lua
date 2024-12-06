@@ -36,6 +36,7 @@ local tbl =
 				mechanicTime = 10.6,
 				name = "Hold 1 Jump Tanks",
 				timelineIndex = 1,
+				timerOffset = -5,
 				uuid = "dfb777a3-b83c-7411-958a-c5dd251de462",
 				version = 2,
 			},
@@ -352,273 +353,6 @@ local tbl =
 			inheritedIndex = 6,
 		},
 	}, 
-	[4] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 16461,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "8cbc8a6d-4cc1-67ec-be46-c9fa7e47e9b6",
-							version = 2.1,
-						},
-						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							actionID = 7386,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "52ca11e9-4866-2bb3-b3d5-37599860356f",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 36926,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "5f0f2206-3257-cc0e-bc21-562466245de7",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 36934,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "e0cd3f06-24f4-119f-8318-f86695273f2a",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 36951,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRG3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "9d5a350b-eccb-388b-8410-617e0f6bdfaa",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 25762,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuMNK3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "75473303-939c-0d7d-8071-4eb5c6de886e",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 7492,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_TensorWeeb3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "177a02ab-ae8f-6f17-abeb-446d1887b431",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							actionID = 2262,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_RikuNIN3_Hotbar_ShukuchiHitbox",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "08637753-e66b-296a-ac86-1c36bbae20d3",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 24401,
-							allowInterrupt = true,
-							conditions = 
-							{
-								
-								{
-									"aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
-									true,
-								},
-							},
-							gVar = "ACR_TensorReaper3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "f2d8e7f7-835e-172c-9474-ef0ae91847ad",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionID = 34646,
-							allowInterrupt = true,
-							conditions = 
-							{
-								
-								{
-									"9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-									true,
-								},
-							},
-							gVar = "ACR_TensorViper3_CD",
-							ignoreWeaveRules = true,
-							targetType = "Current Target",
-							uuid = "cedf8842-f24e-8b64-8abb-73105ce63c95",
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							conditionType = 6,
-							dequeueIfLuaFalse = true,
-							inRangeValue = 3,
-							name = "> 3 yalms",
-							uuid = "9ddcb869-f9b4-c8e5-9320-ac284bcd5a46",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 6,
-							dequeueIfLuaFalse = true,
-							inRangeValue = 15,
-							name = "> 15 Yalms",
-							uuid = "aabac7a6-f4eb-47dd-96b1-e15acc6218a4",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 2,
-							actionID = 36951,
-							category = "Self",
-							conditionType = 4,
-							name = "Glide on CD",
-							uuid = "5ac6341b-8eaa-5f47-9bf4-882f23a59977",
-							version = 2,
-						},
-					},
-				},
-				loop = true,
-				mechanicTime = 30.9,
-				name = "Instant Dash (0.2s)",
-				timeRange = true,
-				timelineIndex = 4,
-				timerEndOffset = 1,
-				timerStartOffset = 0.20000000298023,
-				uuid = "6d047aa2-2e64-850f-813d-094a361706b2",
-				version = 2,
-			},
-			inheritedIndex = 9,
-		},
-	},
 	[6] = 
 	{
 		
@@ -3984,142 +3718,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"8afc9cb5-77b7-8b0a-a732-56ae5091148f",
-									true,
-								},
-								
-								{
-									"e3f6060d-d7fc-7bcd-88b7-4078f7051bf3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD3_Tankbar_HallowedGround",
-							uuid = "5365aa35-ed4f-ec17-83a3-b9f4bd917aa3",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"8afc9cb5-77b7-8b0a-a732-56ae5091148f",
-									true,
-								},
-								
-								{
-									"e3f6060d-d7fc-7bcd-88b7-4078f7051bf3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_Tankbar_Holmgang",
-							uuid = "0e7036de-7dc2-2c4e-8474-80576e0e9597",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"8afc9cb5-77b7-8b0a-a732-56ae5091148f",
-									true,
-								},
-								
-								{
-									"e3f6060d-d7fc-7bcd-88b7-4078f7051bf3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK3_Tankbar_LivingDead",
-							uuid = "aa6c6c9f-f4c9-d095-8ec7-0ecfa179e686",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-						inheritedIndex = 3,
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"8afc9cb5-77b7-8b0a-a732-56ae5091148f",
-									true,
-								},
-								
-								{
-									"e3f6060d-d7fc-7bcd-88b7-4078f7051bf3",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Tankbar_Superbolide",
-							uuid = "e8fca794-2495-23c5-a394-9779c9548b88",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "is MT",
-							uuid = "8afc9cb5-77b7-8b0a-a732-56ae5091148f",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 100,
-							name = "Enmity 100%",
-							uuid = "e3f6060d-d7fc-7bcd-88b7-4078f7051bf3",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 142.6,
-				name = "Invuln if MT Checked(0s)",
-				timelineIndex = 23,
-				uuid = "a43609b0-b1a9-2b87-b9da-00c998474f7c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							actionID = 44,
 							actionLua = "SallyWAR.HotBarConfig.Vengeance.enabled = false\nself.used = true\n",
 							atomicPriority = true,
@@ -4245,6 +3843,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 142.6,
 				name = "Strong Mitigation MT Checked(-4s)",
 				timelineIndex = 23,
@@ -4481,6 +4080,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 142.6,
 				name = "Short Mitigation Self if MT Checked(-7s)",
 				timeRange = true,
@@ -4590,6 +4190,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 142.6,
 				name = "Rampart Checked(-19s)",
 				randomOffset = -1,
@@ -4806,6 +4407,153 @@ local tbl =
 				uuid = "1b94c71d-a312-fd51-aa4a-e9ff0dd6221e",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 30,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"22251963-c677-9a29-9953-51bdda756933",
+									true,
+								},
+								
+								{
+									"bd5f77f7-b2f1-3b7e-acfd-194bf1160c80",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD3_Tankbar_HallowedGround",
+							ignoreWeaveRules = true,
+							uuid = "5365aa35-ed4f-ec17-83a3-b9f4bd917aa3",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 43,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"22251963-c677-9a29-9953-51bdda756933",
+									true,
+								},
+								
+								{
+									"bd5f77f7-b2f1-3b7e-acfd-194bf1160c80",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Tankbar_Holmgang",
+							ignoreWeaveRules = true,
+							uuid = "0e7036de-7dc2-2c4e-8474-80576e0e9597",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 2,
+					},
+					
+					{
+						data = 
+						{
+							actionID = 3638,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"22251963-c677-9a29-9953-51bdda756933",
+									true,
+								},
+								
+								{
+									"bd5f77f7-b2f1-3b7e-acfd-194bf1160c80",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK3_Tankbar_LivingDead",
+							ignoreWeaveRules = true,
+							uuid = "aa6c6c9f-f4c9-d095-8ec7-0ecfa179e686",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+					
+					{
+						data = 
+						{
+							actionID = 16152,
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"22251963-c677-9a29-9953-51bdda756933",
+									true,
+								},
+								
+								{
+									"bd5f77f7-b2f1-3b7e-acfd-194bf1160c80",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Tankbar_Superbolide",
+							ignoreWeaveRules = true,
+							uuid = "e8fca794-2495-23c5-a394-9779c9548b88",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Lua",
+							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
+							name = "is MT",
+							uuid = "22251963-c677-9a29-9953-51bdda756933",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 100,
+							name = "Enmity 100%",
+							uuid = "bd5f77f7-b2f1-3b7e-acfd-194bf1160c80",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 142.6,
+				name = "Invuln if MT (-0.5s)",
+				timelineIndex = 23,
+				timerOffset = -0.5,
+				uuid = "c3dab356-4719-cbe1-87e5-689d6b13272e",
+				version = 2,
+			},
+			inheritedIndex = 23,
 		},
 	},
 	[24] = 
@@ -14972,54 +14720,51 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
-							gVar = "ACR_RikuPLD3_Hotbar_LimitBreak",
-							uuid = "1fd66bf9-ad36-575d-900a-d523b08b1361",
-							variableTogglesType = 2,
+							aType = "Lua",
+							actionID = 209,
+							actionLua = "ActionList:Get(5, 3):Cast()\nself.used = true",
+							allowInterrupt = true,
+							conditions = 
+							{
+								
+								{
+									"10f81813-2261-6e30-9763-336af59b95dc",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_CD",
+							ignoreWeaveRules = true,
+							uuid = "0d61aa41-4f0b-d889-95af-f74a684140f1",
 							version = 2.1,
 						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Hotbar_LimitBreak",
-							uuid = "29eb54e1-b12c-af83-bf7b-9122334a2631",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuDRK3_Hotbar_LimitBreak",
-							uuid = "64d0b22c-c39b-a899-a93b-6473bfce6150",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Hotbar_LimitBreak",
-							uuid = "aebce317-f12a-8b10-8f81-735b5c449e8a",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 14,
+							jobIDList = 
+							{
+								21,
+								19,
+								32,
+								37,
+							},
+							name = "Tanks",
+							uuid = "10f81813-2261-6e30-9763-336af59b95dc",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 408.1,
 				name = "LB3",
 				timelineIndex = 77,
-				timerOffset = -1.5,
+				timerOffset = -0.5,
 				uuid = "50bdad55-a363-14eb-96d6-5aa4c9e1280d",
 				version = 2,
 			},
@@ -20310,6 +20055,35 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
+							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 551.5,
+				name = "NIN Shade (-4s)",
+				timelineIndex = 96,
+				timerOffset = -4,
+				uuid = "ada60048-3e34-989b-af5f-00b67fdfcf10",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							conditions = 
 							{
 								
@@ -20494,35 +20268,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuNIN3_Hotbar_ShadeShift",
-							uuid = "6ef02199-1ffa-1cd3-bb34-58bcf51374d0",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 551.5,
-				name = "NIN Shade (-4s)",
-				timelineIndex = 96,
-				timerOffset = -4,
-				uuid = "ada60048-3e34-989b-af5f-00b67fdfcf10",
-				version = 2,
-			},
 		},
 	},
 	[97] = 

@@ -976,7 +976,6 @@ local tbl =
 								743,
 							},
 							category = "Self",
-							dequeueIfLuaFalse = true,
 							uuid = "71c13bac-087c-e2a4-b0fa-6837864b92e6",
 							version = 2,
 						},
@@ -988,6 +987,7 @@ local tbl =
 				uuid = "56e27af8-03bc-058a-b681-527f0a22ee84",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
 	},
 	[25] = 

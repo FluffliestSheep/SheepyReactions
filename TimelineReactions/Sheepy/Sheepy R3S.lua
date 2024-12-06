@@ -8791,7 +8791,7 @@ local tbl =
 				uuid = "f9c3833a-370f-e931-af19-1d2d6c73bd60",
 				version = 2,
 			},
-			inheritedIndex = 6,
+			inheritedIndex = 5,
 		},
 	},
 	[36] = 
@@ -19276,6 +19276,7 @@ local tbl =
 				uuid = "da24becc-c607-ba8f-9545-22aa0492aaa7",
 				version = 2,
 			},
+			inheritedIndex = 7,
 		},
 		
 		{
