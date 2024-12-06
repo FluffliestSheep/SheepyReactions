@@ -477,7 +477,7 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "ACR",
+						actionID = 7393,
 						conditions = 
 						{
 							
@@ -492,6 +492,7 @@ local tbl =
 							},
 						},
 						gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightOT",
+						ignoreWeaveRules = true,
 						targetType = "Other Tank",
 						uuid = "507ffb54-b0c0-58b1-b7b8-5f274a84cfbc",
 						variableTogglesType = 3,
@@ -752,6 +753,7 @@ local tbl =
 							1232,
 							1243,
 							1239,
+							1238,
 						},
 						name = "Party Mitigation Map Lock",
 						uuid = "06c4a1d0-9af3-ebbd-8148-5299a02c0db0",
@@ -991,9 +993,9 @@ local tbl =
 				},
 			},
 			eventType = 16,
-			name = "Sheepy Prepull",
+			name = "Baa Prepull",
 			timeout = 10,
-			uuid = "290b9f14-1b41-9baf-b015-8f68b95344b6",
+			uuid = "2b81f1ab-68f3-a3bd-946d-e375da17f70e",
 			version = 2,
 		},
 	},
@@ -1125,7 +1127,7 @@ local tbl =
 				},
 			},
 			name = "Post Pull",
-			uuid = "e3bc8c12-0ce5-ce00-9e32-c802ee51ed05",
+			uuid = "841e335d-f37d-6d00-8afd-cc11af14515a",
 			version = 2,
 		},
 	},
@@ -1777,7 +1779,7 @@ local tbl =
 				},
 			},
 			name = "Mit/Heal During Fight",
-			uuid = "9e25a461-ae21-6744-8b02-112f19238259",
+			uuid = "dc34ae53-823f-ed1c-9c14-4ffa9b71b3e4",
 			version = 2,
 		},
 		inheritedIndex = 4,
@@ -1859,7 +1861,7 @@ local tbl =
 			timelineIndex = 108,
 			timerEndOffset = 100,
 			timerOffset = 2,
-			uuid = "20fc86fa-8e12-9bc1-afc9-623af9006cf6",
+			uuid = "4b48f2a9-af3e-b905-ae63-2a31621a12ff",
 			version = 2,
 		},
 		inheritedIndex = 5,
