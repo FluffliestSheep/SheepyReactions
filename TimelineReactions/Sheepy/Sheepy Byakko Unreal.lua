@@ -8163,70 +8163,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "ACR",
-							gVar = "ACR_RikuPLD3_Hotbar_LimitBreak",
-							uuid = "1fd66bf9-ad36-575d-900a-d523b08b1361",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Hotbar_LimitBreak",
-							uuid = "29eb54e1-b12c-af83-bf7b-9122334a2631",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuDRK3_Hotbar_LimitBreak",
-							uuid = "64d0b22c-c39b-a899-a93b-6473bfce6150",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Hotbar_LimitBreak",
-							uuid = "aebce317-f12a-8b10-8f81-735b5c449e8a",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 447.1,
-				name = "LB3",
-				timelineIndex = 78,
-				timerOffset = -2,
-				uuid = "242a4245-800f-bf8f-bf12-ae4184a82bb9",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							aType = "Lua",
 							actionID = 209,
 							actionLua = "ActionList:Get(5, 3):Cast()\nself.used = true",
@@ -8239,6 +8175,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuWAR3_CD",
 							ignoreWeaveRules = true,
 							uuid = "0d61aa41-4f0b-d889-95af-f74a684140f1",
@@ -8268,10 +8205,13 @@ local tbl =
 						},
 					},
 				},
+				loop = true,
 				mechanicTime = 447.1,
 				name = "LB3",
+				timeRange = true,
 				timelineIndex = 78,
 				timerOffset = -2,
+				timerStartOffset = -5,
 				uuid = "ddbed15e-e0ea-9844-83cd-c97d8577a652",
 				version = 2,
 			},
